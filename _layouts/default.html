@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css">
-    <title>Contact</title>
+    <title>{{ page.title | escape }}</title>
 </head>
 <header>
     <a href="#" class="logo">Alexis Guijarro<span>.</span></a>
@@ -26,20 +26,7 @@
 
 <body>
     <!-- Here goes Jekyll content -->
-    <h2>Contact</h2>
-
-    <p>Follow me on:</p>
-
-<ul>
-  <li><a href="https://www.twitter.com/alexis_guijarro">Twitter</a></li>
-  <li><a href="https://www.researchgate.net/profile/Gabriel_Guijarro_Reyes">ResearchGate</a></li>
-  <li><a href="https://github.com/TOTON95">Github</a></li>
-</ul>
-
-
-
-<p>Thanks for reading!</p>
-
+    {{ content }}
 
     <script type="text/javascript">
         window.addEventListener('scroll', function () {

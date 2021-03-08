@@ -1,0 +1,41 @@
+body {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+    a {
+        color: rgb(44, 145, 240);
+    }
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2 {
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+}
+
+.banner .content p {
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.btn:hover
+{
+   letter-spacing: 6px; 
+}
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background:rgb(56, 56, 56);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
