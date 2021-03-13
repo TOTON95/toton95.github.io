@@ -1,0 +1,130 @@
+temp.txt
+
+<!-- <header>
+    <!--Navigation-->
+    <nav>
+        <div class="ul-bar">
+            <li><a href="/">Alexis GUIJARRO</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Publications</a></li>
+            <li><a href="/">Mentoring</a></li>
+            <li><a href="/">Contact</a></li>
+        </div>
+    </nav>
+</header>
+
+<!--Body-->
+
+<body>
+    {{ content }}
+</body>
+
+<!--Aside with posts-->
+<aside>
+    <h3>Posts</h3>
+    <ul>
+        {% for post in site.posts %}
+        <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+        {% endfor %}
+    </ul>
+</aside>
+
+<!--Footer-->
+<footer>
+    <p>{{ site.description | escape }}</p>
+</footer> -->
+
+
+------------------------------
+
+
+css
+
+----------------------------
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: minmax(150px, 75%) 1fr;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+ nav {
+    display: grid;
+    overflow: hidden;
+    position: fixed;
+    grid-template-columns: 100% 1fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    text-align: center;
+    grid-row: 1;
+    grid-column: span;
+    padding: 0 10px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* main {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0 20px;
+    flex: 0 1 100px;
+} */
+
+/* face {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/2;
+    padding: 0 20px;
+    flex: 0 1 100px;
+}
+
+footer {
+    display: grid;
+    grid-row: 3;
+    grid-column: 1/2;
+}
+
+aside {
+    display: grid;
+    grid-row: 1;
+    grid-column: 2/3;
+    padding: 0 10px;
+}
+
+.ul-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "nav nav nav nav"
+        "info main main Post"
+        "info main main Post";
+}
+
+.info {
+    grid-area: info;
+}
+.Post {
+    grid-area: Post;
+}
+.main {
+    grid-area: main;
+    
+}
