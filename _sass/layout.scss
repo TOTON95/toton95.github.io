@@ -215,6 +215,11 @@ section {
 
     header .logo {
         font-size: 1.5em;
+        color: rgba($color: #000000, $alpha: 0.0);
+    }
+
+    header .logo span {
+        color: rgba($color: #000000, $alpha: 0.0);
     }
 
     .menuToggle {
@@ -233,7 +238,7 @@ section {
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
-        transition: 0.4s;
+        // transition: 0.4s;
     }
 
     // header.sticky .menuToggle {
