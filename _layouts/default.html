@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css">
-    <title>{{ page.title | escape }}</title>
+    <title>{{ page.title | escape }} | A. Guijarro</title>
 </head>
 <header>
     <a href="#" class="logo">Alexis Guijarro<span>.</span></a>
@@ -15,18 +15,18 @@
     </div>
     <ul class="navigation">
         <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
-        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
-        <li><a href="#publications" onclick="toggleMenu();">Publications</a></li>
         <li><a href="#about" onclick="toggleMenu();">About</a></li>
-        <li><a href="#cv" onclick="toggleMenu();">CV</a></li>
-        <li><a href="#mentoring" onclick="toggleMenu();">Mentoring</a></li>
-        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <li><a href="#publications" onclick="toggleMenu();">Publications</a></li>
+        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+        <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
     </ul>
 </header>
 
 <body>
+
     <!-- Here goes Jekyll content -->
     {{ content }}
+    <!-- Here goes Jekyll content -->
 
     <script type="text/javascript">
         window.addEventListener('scroll', function () {

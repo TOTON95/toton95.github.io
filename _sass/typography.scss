@@ -28,7 +28,7 @@ p {
 
 .btn:hover
 {
-   letter-spacing: 6px; 
+   letter-spacing: 4px; 
 }
 
 .btn {
@@ -38,4 +38,13 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.logo:hover {
+    letter-spacing: 1px;
+}
+
+.section{
+    text-align: justify;
+    text-justify:inter-word;
 }
