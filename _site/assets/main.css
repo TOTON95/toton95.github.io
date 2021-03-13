@@ -217,7 +217,11 @@ section {
     font-weight: 300; }
 
   header .logo {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0); }
+
+  header .logo span {
+    color: rgba(0, 0, 0, 0); }
 
   .menuToggle {
     position: relative;
@@ -233,8 +237,7 @@ section {
     background: url(/assets/img/close.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: center;
-    transition: 0.4s; }
+    background-position: center; }
 
   section {
     padding: 20px; }
