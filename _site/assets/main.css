@@ -56,7 +56,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #acdaf8;
+  background: #c6c1c1;
+  background: linear-gradient(180deg, #c6c1c1 0%, #a1a9ad 48%, #889195 72%, #5c686b 100%);
   background-size: cover; }
 
 .btn {
@@ -133,10 +134,11 @@ section {
 .row .col {
   position: relative;
   width: 100%;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  padding: 20px; }
 
 .row .col ol {
-  padding: 20px; }
+  padding-left: 10px; }
 
 .row .col ol li {
   margin-bottom: 1.5em; }
@@ -155,6 +157,13 @@ section {
   color: #2c91f0;
   font-weight: 700;
   font-size: 1.5em; }
+
+.subtitleText {
+  color: #111;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 1.5em; }
 
 .row .col50 .imgBx {
   position: relative;
@@ -182,6 +191,27 @@ section {
 .banner .row .mosaic:hover {
   transform: scale(1.05);
   transition: 0.2s; }
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; }
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+.social-container {
+  width: 85%;
+  height: 55vw;
+  overflow-y: auto;
+  padding-left: 6vw; }
 
 @media (max-width: 991px) {
   header,
@@ -220,8 +250,14 @@ section {
     font-size: 1.5em;
     color: rgba(0, 0, 0, 0); }
 
+  header.sticky .logo {
+    color: black; }
+
   header .logo span {
     color: rgba(0, 0, 0, 0); }
+
+  header.sticky .logo span {
+    color: #2c91f0; }
 
   .menuToggle {
     position: relative;
@@ -283,7 +319,8 @@ section {
 
   .row .col {
     position: relative;
-    width: 100%; }
+    width: 100%;
+    padding-left: 6px; }
 
   .menu .content {
     margin-top: 20px; }
@@ -301,7 +338,18 @@ section {
     font-size: 1.8em;
     line-height: 1.5em;
     margin-bottom: 15px;
-    font-weight: 300; } }
+    font-weight: 300; }
+
+  .subtitleText {
+    color: #111;
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 0.5em; }
+
+  .social-container {
+    height: 65vw; } }
 @media (max-width: 480px) {
   .banner .content h2 {
     font-size: 2.2em;
