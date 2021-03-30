@@ -1,0 +1,3 @@
+- [TAMUCC's News](https://fb.watch/4ySsEwpFND/)
+- [ROS News for the Week of February 15, 2021](https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051)
+- [Ubuntu's State of Robotics](https://ubuntu.com/blog/the-state-of-robotics-february-2021)

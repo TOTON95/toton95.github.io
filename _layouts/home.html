@@ -256,6 +256,21 @@ layout: default
         </div>
     </div>
 </section>
+<section class="media" id="media">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText"><span>M</span>edia</h2>
+        </div>
+        <div class="col50"></div>
+    </div>
+    <div class="row">
+        <div class="col50">
+            {% capture me_capture %}{% include media.md %}{% endcapture %}
+            {{ me_capture | markdownify }}
+        </div>
+        <div class="col50"></div>
+    </div>
+</section>
 
 
 <!---{% include ghchart.html %}--->
