@@ -87,6 +87,28 @@ layout: default
     </div>
 </section>
 
+<!-- Here goes the blog section-->
+<section class="blog" id="blog">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText"><span>B</span>log</h2>
+        </div>
+        <div class="col50"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{post.date | date: '%B %d, %Y' }}:  {{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
+
 <section class="publications" id="publications">
     <div class="row">
         <div class="col50">

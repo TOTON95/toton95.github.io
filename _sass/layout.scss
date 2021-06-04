@@ -73,7 +73,6 @@ header .logo span {
     color: rgb(25, 136, 247);
 }
 
-
 header .navigation {
     position: relative;
     display: flex;
@@ -181,6 +180,12 @@ section {
     text-align: center;
 }
 
+.about .row .mosaic:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    box-shadow: 0 0 2px 1px rgba(92, 104, 107, 1);
+}
+
 .banner .row .mosaic {
     display: flex;
     align-items: center;
@@ -213,6 +218,16 @@ section {
     height: 45vw;
     overflow-y: auto;
     padding-left: 6vw;
+}
+
+.blog-banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 991px) {
@@ -329,6 +344,7 @@ section {
     .row .mosaic .imgBx {
         transform: scale(0.6);
         line-height: 0em;
+        transform: scale(1.05);
     }
 
     .row .col50 {
