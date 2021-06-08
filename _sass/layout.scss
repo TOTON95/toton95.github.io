@@ -230,6 +230,10 @@ section {
     align-items: center;
 }
 
+.page__content {
+    text-align: justify;
+}
+
 @media (max-width: 991px) {
     header,
     header.sticky {
