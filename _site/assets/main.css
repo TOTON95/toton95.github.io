@@ -129,13 +129,15 @@ section {
 
 .row .col50 {
   position: relative;
-  width: 48%; }
+  width: 48%;
+  text-align: justify; }
 
 .row .col {
   position: relative;
   width: 100%;
   line-height: 1.6em;
-  padding: 20px; }
+  padding: 20px;
+  text-align: justify; }
 
 .row .col ol {
   padding-left: 10px; }
@@ -227,7 +229,7 @@ section {
   justify-content: center;
   align-items: center; }
 
-.page__content {
+.content {
   text-align: justify; }
 
 @media (max-width: 991px) {

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+    <title>{{ page.title | escape }} | A. Guijarro</title>
+</head>
+<header>
+    <a href="/#" class="logo">Alexis Guijarro<span>.</span></a>
+    <div class="menuToggle" onclick="toggleMenu();">
+
+    </div>
+    <ul class="navigation">
+        <li><a href="/#banner" onclick="toggleMenu();">Home</a></li>
+        <li><a href="/#about" onclick="toggleMenu();">Acerca</a></li>
+        <li><a href="/#blog" onclick="toggleMenu();">Blog</a></li>
+        <li><a href="/#publications" onclick="toggleMenu();">Publicaciones</a></li>
+        <li><a href="/#videos" onclick="toggleMenu();">Videos</a></li>
+        <li><a href="/#projects" onclick="toggleMenu();">Proyectos</a></li>
+        <li><a href="/#social" onclick="toggleMenu();">Social</a></li>
+        <li><a href="/#media" onclick="toggleMenu();">Prensa</a></li>
+        <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+    </ul>
+</header>
+
+<body>
+
+    <!-- Here goes Jekyll content -->
+    {{ content }}
+    <!-- Here goes Jekyll content -->
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

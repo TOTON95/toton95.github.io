@@ -1,38 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default_es
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/main.css">
-    <title>Home | A. Guijarro</title>
-</head>
-<header>
-    <a href="/#" class="logo">Alexis Guijarro<span>.</span></a>
-    <div class="menuToggle" onclick="toggleMenu();">
-
-    </div>
-    <ul class="navigation">
-        <li><a href="/#banner" onclick="toggleMenu();">Home</a></li>
-        <li><a href="/#about" onclick="toggleMenu();">About</a></li>
-        <li><a href="/#blog" onclick="toggleMenu();">Blog</a></li>
-        <li><a href="/#publications" onclick="toggleMenu();">Publications</a></li>
-        <li><a href="/#videos" onclick="toggleMenu();">Videos</a></li>
-        <li><a href="/#projects" onclick="toggleMenu();">Projects</a></li>
-        <li><a href="/#social" onclick="toggleMenu();">Social</a></li>
-        <li><a href="/#media" onclick="toggleMenu();">Media</a></li>
-        <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
-    </ul>
-</header>
-
-<body>
-
-    <!-- Here goes Jekyll content -->
-    <section class="banner" id="banner">
+<section class="banner" id="banner">
     <div class="content">
         <h2>Alexis Guijarro</h2>
-        <p>MS. in Computer Science</p>
+        <p>MC. en Ciencias de la Computación</p>
         <a href="/assets/pdf/cv_alexis.pdf" target="blank" rel="noopener noreferrer" class="btn">Resumé</a>
         <!-- TODO: Aca van los iconos de redes -->
         <div class="row">
@@ -58,9 +31,9 @@
 <section class="about" id="about">
     <div class="row">
         <div class="col50">
-            <h2 class="titleText"><span>A</span>bout</h2>
-            <p>Gabriel Alexis Guijarro Reyes was born in Torreon, Coahuila, Mexico in 1995. He obtained his B.S. in
-                Mechatronics and Process Control Systems Engineering in 2018 at Universidad La Salle Laguna, Gomez
+            <h2 class="titleText"><span>A</span>cerca</h2>
+            <p>Gabriel Alexis Guijarro Reyes nació en Torreón, Coahuila, Mexico in 1995. El obtuvo su Licenciatura en Ingeniería en Mecatrónica 
+                y en Sistemas de Control de Procesos en 2018 por la Universidad La Salle Laguna, Gomez
                 Palacio, Durango, Mexico. Later, he obtained a M.S. in Computer Science in 2020 at Texas A&M University
                 Corpus Christi under Dr. Luis Rodolfo Garcia Carrillo and Dr. Scott A. King supervision. Currently, he
                 is studying a PhD in EE at New Mexico State University, under Dr. Garcia Carrillo's supervision.</p>
@@ -125,11 +98,11 @@
     <div class="row">
         <div class="col">
             <ul>
-                
+                {% for post in site.posts %}
                 <li>
-                    <a href="/introduction/about/bio/spanish/2021/05/11/introductory-post.html">May 11, 2021:  Bienvenido a mi blog personal (ES)</a>
+                    <a href="{{ post.url }}">{{post.date | date: '%B %d, %Y' }}:  {{ post.title }}</a>
                 </li>
-                
+                {% endfor %}
             </ul>
         </div>
     </div>
@@ -145,25 +118,8 @@
     </div>
     <div class="row">
         <div class="col">
-            
-            <ol>
-  <li>
-    <p>Ignacio Rubio Scola, <strong>Gabriel Alexis Guijarro Reyes</strong>, Luis Rodolfo Garcia Carrillo, João Pedro Hespanha, Laurent Burlion, “A Robust Control Strategy With Perturbation Estimation for the Parrot Mambo Platform”, IEEE Transactions on Control Systems Technology, September 2020. <a href="https://doi.org/10.1109/TCST.2020.3020783">[DOI]</a></p>
-  </li>
-  <li>
-    <p>I. Rubio Scola, <strong>G.A. Guijarro Reyes</strong>, L. R. Garcia Carrillo, J. Hespanha and J. Xie, “Translational Model Identification and Robust Control for the Parrot Mambo UAS Multicopter”, IEEE Globecom Workshop on Computing Centric Drone Networks, Hawaii, USA, December 2019. <a href="https://doi.org/10.1109/GCWkshps45667.2019.9024528">[DOI]</a></p>
-  </li>
-  <li>
-    <p><strong>G.A. Guijarro Reyes</strong>, L.R. Garcia Carrillo, I. Rubio Scola, J. Martinez, J. Baca, and S.King, “Human gesture-triggered control actions for Unmanned Aircraft Systems: A Deep Neural Network-Inspired Approach”, Latin American Congress on Automation and Robotics (LACAR), Cali, Colombia, November 2019. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1007%2F978-3-030-40309-6_10&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHACyCL28VYDaQwyskc2SC4UhqmBQ">[DOI]</a></p>
-  </li>
-  <li>
-    <p>B. Wang, J. Xie, Y. Wan, <strong>G.A. Guijarro Reyes</strong>, and L.R. Garcia Carrillo, “3-D Trajectory Modeling for Unmanned Aerial Vehicles”,  AIAA Science and Technology Forum and Exposition, January 2019, San Diego CA, USA. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.2514%2F6.2019-1061&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHHDARh2hhAklzNB8wNNMIBxNqkyQ">[DOI]</a></p>
-  </li>
-  <li>
-    <p><strong>G.A. Guijarro Reyes</strong>, L.R. Garcia Carrillo, and P. Rangel. “A Geometric Control Strategy for Real-Time Coordination of Multiple Unmanned Aircraft Systems”,  2018 International Conference on Unmanned Aircraft Systems, June 2018, Dallas, TX, USA. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1109%2FICUAS.2018.8453484&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNF3AghhIKSpWosXaqAAybwjLzIcDw">[DOI]</a></p>
-  </li>
-</ol>
-
+            {% capture pub_capture %}{% include publications.md %}{% endcapture %}
+            {{ pub_capture | markdownify }}
         </div>
     </div>
     <div class="row">
@@ -269,26 +225,13 @@
     <div class="row">
         <div class="col50">
             <h2 class="titleText"><span>P</span>rojects</h2>
-            
-            <ul>
-  <li><a href="https://github.com/TOTON95/Bebop_ROS_Examples">Bebop ROS Examples</a></li>
-  <li><a href="https://www.github.com/TOTON95/ros-gopro-driver">ROS GoPro Driver</a></li>
-  <li><a href="https://github.com/TOTON95/ros_pyparrot">ROS pyparrot</a></li>
-  <li><a href="https://www.github.com/TOTON95/Mambo_ROS_Examples">Mambo ROS Examples</a></li>
-  <li><a href="https://github.com/TOTON95/Hand_Gesture_UAV">Hand Gesture UAV</a></li>
-  <li><a href="https://github.com/TOTON95/Arduino_Drawing_Robot_OpenCV_OpenNI">Arduino Drawing Robot OpenCV-OpenNI</a></li>
-</ul>
-
+            {% capture pro_capture %}{% include projects.md %}{% endcapture %}
+            {{ pro_capture | markdownify }}
         </div>
         <div class="col50">
             <h2 class="titleText"><span>W</span>orkshops</h2>
-            
-            <ul>
-  <li><a href="https://github.com/TOTON95/ROS_Workshop_Py_CPP">ROS Workshop Python CPP</a></li>
-  <li><a href="https://github.com/TOTON95/ros_image_workshop">ROS Image Workshop</a></li>
-  <li><a href="https://github.com/TOTON95/ros_vicon_workshop">ROS Vicon Workshop</a></li>
-</ul>
-
+            {% capture ws_capture %}{% include workshops.md %}{% endcapture %}
+            {{ ws_capture | markdownify }}
         </div>
     </div>
 </section>
@@ -319,8 +262,7 @@
         </div>
         <div class="col50">
             <div class="social-container">
-                <a class="twitter-timeline" data-theme="light" data-chrome="noheader" href="https://twitter.com/alexis_guijarro?ref_src=twsrc%5Etfw">Tweets by alexis_guijarro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+                {% include tw_timeline.html %}
             </div>
         </div>
     </div>
@@ -332,7 +274,7 @@
             </div>
         </div>
         <div class="col50">
-            <!-- <img src="http://ghchart.rshah.org/toton95" alt="TOTON95's Github chart" /> -->
+            <!-- {% include ghchart.html %} -->
         </div>
     </div>
 </section>
@@ -345,37 +287,13 @@
     </div>
     <div class="row">
         <div class="col50">
-            
-            <ul>
-  <li><a href="https://fb.watch/4ySsEwpFND/">TAMUCC’s News</a></li>
-  <li><a href="https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051">ROS News for the Week of February 15, 2021</a></li>
-  <li><a href="https://ubuntu.com/blog/the-state-of-robotics-february-2021">Ubuntu’s State of Robotics</a></li>
-</ul>
-
+            {% capture me_capture %}{% include media.md %}{% endcapture %}
+            {{ me_capture | markdownify }}
         </div>
         <div class="col50"></div>
     </div>
 </section>
 
 
-<!---<img src="http://ghchart.rshah.org/toton95" alt="TOTON95's Github chart" />--->
-<!-- <a class="twitter-timeline" data-theme="light" data-chrome="noheader" href="https://twitter.com/alexis_guijarro?ref_src=twsrc%5Etfw">Tweets by alexis_guijarro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
- -->
-    <!-- Here goes Jekyll content -->
-
-    <script type="text/javascript">
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('header');
-            header.classList.toggle("sticky", window.scrollY > 0);
-        });
-
-        function toggleMenu(){
-            const menuToggle = document.querySelector('.menuToggle');
-            const navigation = document.querySelector('.navigation');
-            menuToggle.classList.toggle('active');
-            navigation.classList.toggle('active');
-        }
-    </script>
-</body>
-
-</html>
+<!---{% include ghchart.html %}--->
+<!-- {% include tw_timeline.html %} -->

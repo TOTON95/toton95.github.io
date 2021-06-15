@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alexis GUIJARRO
-email: totonzx@gmail.com
+email: totonzx+site@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     This is Alexis Guijarro's personal website, where you can find interesting posts of
     technology, computer science, robotics and more. Here, you will also find a constant flow 
