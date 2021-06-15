@@ -129,13 +129,15 @@ section {
 
 .row .col50 {
   position: relative;
-  width: 48%; }
+  width: 48%;
+  text-align: justify; }
 
 .row .col {
   position: relative;
   width: 100%;
   line-height: 1.6em;
-  padding: 20px; }
+  padding: 20px;
+  text-align: justify; }
 
 .row .col ol {
   padding-left: 10px; }
@@ -224,6 +226,19 @@ section {
   min-height: 100vh;
   padding-top: 10vh;
   display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.blog-banner .content .row .col50 .p .img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; }
+
+.content {
+  text-align: justify;
   justify-content: center;
   align-items: center; }
 
