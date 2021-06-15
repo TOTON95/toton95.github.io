@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-14T23:52:50-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alexis GUIJARRO</title><subtitle>This is Alexis Guijarro's personal website, where you can find interesting posts of technology, computer science, robotics and more. Here, you will also find a constant flow  of updates related to Alexis' public repositories and the challenges that were faced in the  process. Feel free to look around and have fun!</subtitle><entry><title type="html">Bienvenido a mi blog personal (ES)</title><link href="http://localhost:4000/introduction/about/bio/spanish/2021/05/11/introductory-post.html" rel="alternate" type="text/html" title="Bienvenido a mi blog personal (ES)" /><published>2021-05-11T18:00:00-05:00</published><updated>2021-05-11T18:00:00-05:00</updated><id>http://localhost:4000/introduction/about/bio/spanish/2021/05/11/introductory-post</id><content type="html" xml:base="http://localhost:4000/introduction/about/bio/spanish/2021/05/11/introductory-post.html">&lt;p&gt;Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica, resolvedor de problemas y creador de software abierto, soy nativo de México y si, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-15T15:50:09-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alexis GUIJARRO</title><subtitle>This is Alexis Guijarro's personal website, where you can find interesting posts of technology, computer science, robotics and more. Here, you will also find a constant flow  of updates related to Alexis' public repositories and the challenges that were faced in the  process. Feel free to look around and have fun!</subtitle><entry xml:lang="en"><title type="html">Bienvenido a mi blog personal</title><link href="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post.html" rel="alternate" type="text/html" title="Bienvenido a mi blog personal" /><published>2021-06-11T18:00:00-05:00</published><updated>2021-06-11T18:00:00-05:00</updated><id>http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post</id><content type="html" xml:base="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post.html">&lt;p&gt;​	Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto, soy nativo de México y si, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.&lt;/p&gt;
 
 &lt;p&gt;Aunque, hasta el momento, no soy muy conocido en las redes, he realizado contribuciones esporádicas a proyectos de fuente libre, ya sea generando nuevo código, talleres o traducciones.&lt;/p&gt;
 
 &lt;p&gt;Por otra parte, también he hecho pequeñas aportaciones en el campo académico, y lo he hecho en su mayoría como parte del control de vehículos aéreos de forma autónoma.&lt;/p&gt;
 
 &lt;p&gt;Para completar dichos logros, fue necesario dedicar suficiente tiempo y esfuerzo para poder cubrir cada una de las habilidades que requiere este tipo de proyectos multidisciplinarios, por lo tanto, he estado cubriendo una diversidad de conocimientos que van desde la mecánica de sólidos y la física a la programación, visión artificial y teoría de control, junto a otros mas.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/img/posts/main.jpg&quot; alt=&quot;Me&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Soy una persona que se conduce por su pasión de aprender mas, así como compartirlo con los demás. Desde que tuve la oportunidad, siempre fui parte de las ferias de ciencias en la escuela, así como estar en constante interacción con la tecnología, esto me ayudo a tener una idea general de como funcionaban las cosas en el mundo.&lt;/p&gt;
 
@@ -14,6 +18,10 @@
 
 &lt;p&gt;A mitad del grado, surgió en mí un deseo para realizar proyectos mas complejos, respecto al campo de la programación. Algunos ejemplos fueron desde la generación de interfaces en dispositivos móviles para robots, la emulación de controles de vuelo y la manipulación de un brazo robótico con un dispositivo Kinect.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/img/posts/kinect.png&quot; alt=&quot;Kinect project&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Lo anterior (como muchísimas noches sin dormir), me llevaron a adentrarme cada vez más en las ciencias de la computación, y consecuentemente abrirme las puertas a proyectos externos de profesores y concursos, especialmente los que involucraban el ensamble y manipulación de drones, así como la utilización de Visión Artificial para el control de estos vehículos y otros sistemas robóticos.&lt;/p&gt;
 
 &lt;p&gt;Ya casi al acabar mi grado en ingeniería, unos compañeros y yo fuimos invitados por un profesor a conocer a su amigo (también profesor) a USA para realizar experimentos relacionados a UAVs (Vehículos Aéreos No Tripulados, en inglés) y Visión Artificial (&lt;em&gt;sip&lt;/em&gt;, y vieran como me divierto jugando con esos temas).&lt;/p&gt;
@@ -21,6 +29,10 @@
 &lt;p&gt;Después de un interesante mes, comiendo galletas y fideos por varios días (casi siempre), logramos realizar la mayoría de los experimentos para mostrar nuestras capacidades. Regresamos con nuevos conocimientos (como la utilización de ROS) a México y los pusimos en practica para ganar el 2&lt;sup&gt;do&lt;/sup&gt; lugar a nivel nacional en el &lt;strong&gt;Torneo Nacional de Robótica 2018&lt;/strong&gt; en México dentro de la categoría de drones autónomos, ademas de ser considerados como la mejor solución de la competencia (dicen los rumores que hasta tiempo nos dieron para lucirnos).  Sin embargo, aun no me sentía completo, como para decir que sabia al 100% el tema y por ello, requería mas educación.&lt;/p&gt;
 
 &lt;p&gt;Mi suerte cambio mas tarde para obtener una propuesta para realizar la maestría en Texas A&amp;amp;M University - Corpus Christi, donde “me lleve casi media casa” (como el amigo de mi ex-profesor, ahora mi tutor, me mencionó) en muchas maletas y bolsas. Aquí me hice de muchos nuevos amigos y conocimientos, también es donde me dedique mas a la investigación y realización de experimentos más rigurosos.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/img/posts/drone.gif&quot; alt=&quot;drone&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Acabé la maestría en Ciencias de la Computación en 2020, durante la contingencia sanitaria, y me moví hacia Las Cruces, Nuevo México poco después, pues me dediqué a empezar el Doctorado en Ingeniería Eléctrica en New Mexico State University, donde al terminar el primer semestre, regresé a México para un descanso.&lt;/p&gt;
 
@@ -36,4 +48,4 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Les veo pronto.&lt;/p&gt;</content><author><name></name></author><category term="introduction" /><category term="about" /><category term="bio" /><category term="spanish" /><summary type="html">Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica, resolvedor de problemas y creador de software abierto, soy nativo de México y si, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.</summary></entry></feed>
+&lt;p&gt;Les veo pronto.&lt;/p&gt;</content><author><name></name></author><category term="introduction" /><category term="about" /><category term="bio" /><summary type="html">​ Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto, soy nativo de México y si, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.</summary></entry></feed>

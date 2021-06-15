@@ -232,8 +232,19 @@ section {
     align-items: center;
 }
 
+.blog-banner .content .row .col50 .p .img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
 .content {
     text-align: justify;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 991px) {
