@@ -229,25 +229,21 @@ section {
   justify-content: center;
   align-items: center; }
 
-.blog-banner .content .row .col50 .p .img {
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%; }
-
-.content {
+/* .blog-banner .content .row .col50 .p .img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+.blog-banner .content .row .col .p {
   text-align: justify;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding-top: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  line-height: 10em;
+  padding: 80px; }
 
 @media (max-width: 991px) {
   header,
