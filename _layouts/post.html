@@ -3,23 +3,21 @@ layout: default
 ---
 
 <section class="blog-post" id="blog-post">
-    <div class="blog-banner">
-        <div class="content">
-            <div class="row">
-                <div class=col>
-                    <h1>{{ page.title }}</h1>
-                    <br>
-                    {{ content }}
-                    <br>
-                    <p><h3>Thanks for reading!</h3></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col50">
-                    <a href="/#blog" onclick="toggleMenu();">Return to Blog</a>
-                </div>
-                <div class="col50"></div>
+        <div class="row">
+            <div class=col>
+                <h1>{{ page.title }}</h1>
+                <br>
+                {{ content }}
+                <br>
+                <p>
+                <h3>Thanks for reading!</h3>
+                </p>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col50">
+                <a href="/#blog" onclick="toggleMenu();">Return to Blog</a>
+            </div>
+            <div class="col50"></div>
+        </div>
 </section>
