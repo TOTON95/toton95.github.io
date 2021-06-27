@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bienvenido a mi blog personal"
+title:  "Welcome to my Blog"
 date:   2021-06-11 18:00:00 -0500
 lang: en
 lang-ref: welcome-to-my-blog
@@ -9,53 +9,50 @@ categories: introduction about bio
 ---
 
 
-​	Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto, soy nativo de México y si, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.
 
-Aunque, hasta el momento, no soy muy conocido en las redes, he realizado contribuciones esporádicas a proyectos de fuente libre, ya sea generando nuevo código, talleres o traducciones. 
+​	Hello, my name is Alexis Guijarro and I consider myself as a robotics developer and an open source creator. I am from Mexico and yes, as a good mexican, I like street tacos, some buenos memes and a good time with comedy.
 
-Por otra parte, también he hecho pequeñas aportaciones en el campo académico, y lo he hecho en su mayoría como parte del control de vehículos aéreos de forma autónoma. 
+Although I am not very well know on the Internet, I've done sporadic contributions to Open Source projects by generating new code, workshops and translations.
 
-Para completar dichos logros, fue necesario dedicar suficiente tiempo y esfuerzo para poder cubrir cada una de las habilidades que requiere este tipo de proyectos multidisciplinarios, por lo tanto, he estado cubriendo una diversidad de conocimientos que van desde la mecánica de sólidos y la física a la programación, visión artificial y teoría de control, junto a otros mas.
+That aside, I also have done small entries into Academia, mostly focused in autonomous Unmanned Aircraft Vehicles (UAV) control. 
+
+To accomplish these achievements, it was necessary to dedicate enough time and effort to cover each required skill for this kind of multidisciplinary projects. For this reason, I've focused in multiple knowledge areas which go from solid mechanics and physics to programming, computer vision and control theory, among others. 
 
 ![Me](/assets/img/posts/main.jpg)
 
-Soy una persona que se conduce por su pasión de aprender mas, así como compartirlo con los demás. Desde que tuve la oportunidad, siempre fui parte de las ferias de ciencias en la escuela, así como estar en constante interacción con la tecnología, esto me ayudo a tener una idea general de como funcionaban las cosas en el mundo.
+I am a person driven by his passion to learn more, plus share it with other people. Since I had the opportunity, I was part of science fairs at the school and was in constant interaction with technology, this helped me to have a general idea of how things worked in this world.
 
-Particularmente, las computadoras estuvieron alrededor de mi atención, siempre, quienes usualmente la absorbían por completo e influenciaban mis decisiones para el principal rumbo de mi carrera. Yo era el nerd (y sigo siendo) de las computadoras a donde fuera, las sabia descomponer y componer por igual, aunque podría haber estudiado Ciencias de la Computación o Ingeniería de Software (algo parecido a como mis padres), quise agregar una "pequeña desviación", por cada cosa que yo programara, esto debía moverse.
+Particularly, computers always were around my attention center, which usually absorbed me entirely and influenced my decisions to define my career path. I was (and still being) the computer nerd wherever I go, basically I knew how to break and fix them; although I could study Computer Science or Software Engineering (similar to my parents), I wanted to add a "little detour", for each thing I programmed, it had to move.
 
-Así es como ingrese a Universidad La Salle Laguna para estudiar la Ingeniería en Mecatrónica y en Sistemas de Control de Procesos, la cual me enseño lo necesario de varias áreas de la ingeniería para emprender mis propios proyectos.
+That's how I entered into Universidad La Salle Laguna to study Mechatronics Engineering and Control Process Systems, which helped me the necessary about multiple engineering fields to undertake my own projects. 
 
-A mitad del grado, surgió en mí un deseo para realizar proyectos mas complejos, respecto al campo de la programación. Algunos ejemplos fueron desde la generación de interfaces en dispositivos móviles para robots, la emulación de controles de vuelo y la manipulación de un brazo robótico con un dispositivo Kinect.
+Halfway through my bachelors, a desire emerged to make more complex projects, focusing on the programming field. Some examples of this was from the generation of interfaces for mobile devices for robots, to the flight control emulation and robotic arm manipulation, both with a Kinect camera.
 
-<!-- {:refdef: style="text-align: center;"} -->
 ![Kinect project](/assets/img/posts/kinect.png)
-<!-- {: refdef} -->
 
-Lo anterior (como muchísimas noches sin dormir), me llevaron a adentrarme cada vez más en las ciencias de la computación, y consecuentemente abrirme las puertas a proyectos externos de profesores y concursos, especialmente los que involucraban el ensamble y manipulación de drones, así como la utilización de Visión Artificial para el control de estos vehículos y otros sistemas robóticos.
+The prior (among a lot lack of sleep nights) took me to get more into computer science, and consecutively it opened the doors to external projects from professors and contests, especially the ones that involved drone assembly and manipulation,   as well as using computer vision to control these vehicles and other robotics systems.
 
-Ya casi al acabar mi grado en ingeniería, unos compañeros y yo fuimos invitados por un profesor a conocer a su amigo (también profesor) a USA para realizar experimentos relacionados a UAVs (Vehículos Aéreos No Tripulados, en inglés) y Visión Artificial (*sip*, y vieran como me divierto jugando con esos temas). 
+Around the ending of getting my Bachelors degree, some classmates and me were invited by a professor to meet his friend (a professor as well) at Texas A&M University - Corpus Christi in USA, where we would effectuate some experiments related to UAV and Computer Vision (yup, and you can't imagine how much I enjoy playing with these topics).
 
-Después de un interesante mes, comiendo galletas y fideos por varios días (casi siempre), logramos realizar la mayoría de los experimentos para mostrar nuestras capacidades. Regresamos con nuevos conocimientos (como la utilización de ROS) a México y los pusimos en practica para ganar el 2<sup>do</sup> lugar a nivel nacional en el **Torneo Nacional de Robótica 2018** en México dentro de la categoría de drones autónomos, ademas de ser considerados como la mejor solución de la competencia (dicen los rumores que hasta tiempo nos dieron para lucirnos).  Sin embargo, aun no me sentía completo, como para decir que sabia al 100% el tema y por ello, requería mas educación.
+After a very interesting month, eating cookies and noodles for some of those days (almost everyday), we achieved most of the experiments to show our skills. Later, we went back to Mexico with our new knowledge (like the utilization of Robot Operating System, ROS) and once we put it into practice we could won Second place at the 2018 Robotics National Tournament in Mexico, for the autonomous drones category. Aside this prize, we were considered as the best solution for that specific contest (rumors say that even we got more time to show off our approach). However, I didn't feel complete yet, at least to say that I knew a 100% of it, and I started looking for more education.
 
-Mi suerte cambio mas tarde para obtener una propuesta para realizar la maestría en Texas A&M University - Corpus Christi, donde "me lleve casi media casa" (como el amigo de mi ex-profesor, ahora mi tutor, me mencionó) en muchas maletas y bolsas. Aquí me hice de muchos nuevos amigos y conocimientos, también es donde me dedique mas a la investigación y realización de experimentos más rigurosos. 
+My luck changed for good later when I obtained a proposal to do my Master degree in Texas A&M University - Corpus Christi, where "I took almost half of my house there" (as my ex-professor friend, now my mentor, said) inside a considerable amount of luggage. At that place I did a lot of new friends and acquire way more knowledge, also there is where I went all into research and more complex experiments.
 
-<!-- {:refdef: style="text-align: center;"} -->
 ![drone](/assets/img/posts/drone.gif)
-<!-- {: refdef} -->
 
-Acabé la maestría en Ciencias de la Computación en 2020, durante la contingencia sanitaria, y me moví hacia Las Cruces, Nuevo México poco después, pues me dediqué a empezar el Doctorado en Ingeniería Eléctrica en New Mexico State University, donde al terminar el primer semestre, regresé a México para un descanso.
+I finished the Master degree in Computer Science in 2020 during pandemics contingency. A little bit later on that year, I moved to Las Cruces, New Mexico, where I started my PhD in Electrical Engineering at New Mexico State University, after finishing my first semester I went back to Mexico to take break.
 
-Espero que me hayas podido seguir hasta este punto y no se haya enfriado tu café (té y/o mate, me gustan todos por igual),  no te preocupes, que ya me falta poco para platicarte mas acerca de lo que cubriré en este blog. 
+I hope you could follow me until this point and your coffee (tea or mate, I like them all) is not cold yet, don't worry, we are about to finish since it only remains to tell you about what I'm covering in this blog.
 
-En este espacio estaré cubriendo las actualizaciones de mis proyectos personales así como aportaciones de fuente abierta, por otra parte, también estaré analizando artículos de Internet y libros relacionados a los campos que se encuentran alrededor de la robótica (Sensores, Computadoras a bordo, Programación, Vision Artificial y Machine Learning), ademas de ser posible, estaré revisando dispositivos físicos y diseñando tutoriales de como usarlos, tanto la parte de hardware, como el software. Daré lo mejor de mi para mantener la dificultad accesible para todos los niveles.
+In this space I will post my updates about my personal projects, also my contributions and thoughts on Open Source projects, by other side, I will analyze Internet articles and books for topics related to robotics (Sensors, Onboard Computers, Programming, Computer Vision and Machine Learning). Finally, if possible I will be reviewing robotics equipment and designing tutorials of how to use them, from hardware and software perspectives. I will give the best of me to keep an accessible difficulty for all levels.  
 
-Mi deseo es dejar a ustedes, los lectores, lo más que se pueda de mis conocimientos y proceso de aprendizaje a su disposición, de la forma mas informada que yo les pueda ofrecer.
+My wish is to give you, the readers, a good piece of my knowledge and learning process at your disposal and accomplish it in the most informed way I can offer.
 
-Esta es la primera vez que escribo un blog y espero con ansias cualquier retroalimentación que me puedas regalar, de esta forma estaré mejorando la experiencia de usuario percibida por mi contenido.  La entrega de cada uno de los posts empezará uno cada dos semanas, dependiendo la cantidad de trabajo, la cantidad de publicaciones se podría incrementar dentro de este periodo.
+This is the very first time I write a blog and I really hope you can offer me some feedback, with this I will be able to improve your experience with my content. The delivery of each post is expected to take place every two weeks, since this is constrained to work load, there could be more publications in the same amount of time.
 
-Sin más que decir, espero que disfrutes de mi/su nuevo espacio y encuentres lo que necesitas para realizar tus proyectos. Y no dudes en darte una vuelta a mis repositorios de GitHub, donde tengo varias herramientas que he ido desarrollando (y sigo desarrollando) para que la comunidad las utilice y contribuya con sus aportaciones. 
+And that's all! I hope you enjoy your/my new space and you find it useful to complete your projects. Do not hesitate in visiting my [GitHub repositories](https://github.com/TOTON95), where I have several tools that I've been developing (and continue developing) for the community to use and improve them.
 
 <br>
 
-Les veo pronto. 
+Stay tuned. 
 
