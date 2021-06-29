@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bienvenido a mi blog personal"
+title:  "Bienvenidos a mi blog"
 date:   2021-06-11 18:00:00 -0500
 lang: es
 lang-ref: welcome-to-my-blog
