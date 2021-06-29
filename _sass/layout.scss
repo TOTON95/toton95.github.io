@@ -254,6 +254,20 @@ section {
     font-size: 4vh;
 }
 
+.quicklink .row .col{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 1.25em;
+}
+
+.quicklink .row .col h1{
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    font-size: 4vh;
+}
+
 @media (max-width: 991px) {
     header,
     header.sticky {
