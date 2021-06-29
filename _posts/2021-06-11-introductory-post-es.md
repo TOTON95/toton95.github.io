@@ -35,7 +35,7 @@ Ya casi al acabar mi licenciatura en ingeniería, unos cuantos compañeros y yo 
 
 Después de un interesante mes, comiendo galletas y fideos por varios días (casi siempre), logramos realizar la mayoría de los experimentos para mostrar nuestras capacidades. Regresamos con nuevos conocimientos (como la utilización de ROS) a México y los pusimos en practica para ganar el 2<sup>do</sup> lugar en el **Torneo Nacional de Robótica 2018** en México, dentro de la categoría de drones autónomos. Además de este reconocimiento, fuimos considerados como la mejor solución de la competencia (dicen los rumores que hasta tiempo nos dieron para lucirnos).  Sin embargo, aún no me sentía completo, como para decir que sabia al 100% el tema y por ello, requería más educación.
 
-Mi suerte cambio mas tarde cuando obtuve una propuesta para realizar la maestría en Texas A&M University - Corpus Christi, donde "me llevé casi media casa" (como el amigo de mi ex-profesor, ahora mi tutor, me mencionó) en muchas maletas y bolsas. Aquí me hice de muchos nuevos amigos y conocimientos, también es donde me dediqué más a la investigación y realización de experimentos más rigurosos. 
+Mi suerte cambió más tarde cuando obtuve una propuesta para realizar la maestría en Texas A&M University - Corpus Christi, donde "me llevé casi media casa" (como el amigo de mi ex-profesor, ahora mi tutor, me mencionó) en muchas maletas y bolsas. Aquí me hice de muchos nuevos amigos y conocimientos, también es donde me dediqué más a la investigación y realización de experimentos más rigurosos. 
 
 ![drone](/assets/img/posts/drone.gif)
 
@@ -54,4 +54,8 @@ Sin más que decir, espero que disfrutes de mi/tú nuevo espacio y encuentres lo
 <br>
 
 Les veo pronto. 
+
+### Agradecimientos
+
+- Lily F. por revisión de texto 
 
