@@ -10,7 +10,7 @@ categories: introduction about bio
 
 
 
-​	Hello, my name is Alexis Guijarro and I consider myself as a robotics developer and an open source creator. I am from Mexico and yes, as a good mexican, I like street tacos, some buenos memes and a good time with comedy.
+​	Hello, my name is Alexis Guijarro and I am a robotics developer and an open source creator. I am from Mexico and yes, as a good mexican, I like street tacos, some buenos memes and a good time with comedy.
 
 Although I am not very well know on the Internet, I've done sporadic contributions to Open Source projects by generating new code, workshops and translations.
 

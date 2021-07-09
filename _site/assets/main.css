@@ -441,6 +441,15 @@ section {
   .blog-post .row .col h3 {
     padding-left: 2vh;
     padding-right: 2vh; }
+  .blog-post .row .col p {
+    padding-left: 2vh;
+    padding-right: 2vh; }
+    .blog-post .row .col p a {
+      padding-left: 0;
+      padding-right: 0; }
+  .blog-post .row .col a {
+    padding-left: 2vh;
+    padding-right: 2vh; }
 
   .blog-post .row p {
     padding-left: 2vh;

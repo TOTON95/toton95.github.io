@@ -504,6 +504,19 @@ section {
             padding-left: 2vh;
             padding-right: 2vh;
         }
+        p {
+            padding-left: 2vh;
+            padding-right: 2vh;
+    
+            a {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        a {
+            padding-left: 2vh;
+            padding-right: 2vh;
+        }   
     }
 
     .blog-post .row p {
