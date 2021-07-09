@@ -9,7 +9,7 @@ categories: introduction about bio
 ---
 
 
-​	Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto. Soy nativo de México y sí, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.
+​	Hola, mi nombre es Alexis Guijarro y soy un desarrollador de robótica y creador de software abierto. Soy nativo de México y sí, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.
 
 Aunque hasta el momento no soy muy conocido en las redes, he realizado contribuciones esporádicas a proyectos de fuente libre, ya sea generando nuevo código, talleres y traducciones. 
 
