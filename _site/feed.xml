@@ -1,4 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-04T01:21:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alexis GUIJARRO</title><subtitle>This is Alexis Guijarro's personal website, where you can find interesting posts of technology, computer science, robotics and more. Here, you will also find a constant flow  of updates related to Alexis' public repositories and the challenges that were faced in the  process. Feel free to look around and have fun!</subtitle><entry xml:lang="es"><title type="html">Bienvenidos a mi blog</title><link href="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es.html" rel="alternate" type="text/html" title="Bienvenidos a mi blog" /><published>2021-06-11T18:00:00-05:00</published><updated>2021-06-11T18:00:00-05:00</updated><id>http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es</id><content type="html" xml:base="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es.html">&lt;p&gt;​	Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto. Soy nativo de México y sí, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-09T13:40:42-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alexis GUIJARRO</title><subtitle>This is Alexis Guijarro's personal website, where you can find interesting posts of technology, computer science, robotics and more. Here, you will also find a constant flow  of updates related to Alexis' public repositories and the challenges that were faced in the  process. Feel free to look around and have fun!</subtitle><entry xml:lang="es"><title type="html">Arte, código y actualizaciones</title><link href="http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates-es.html" rel="alternate" type="text/html" title="Arte, código y actualizaciones" /><published>2021-07-09T01:00:00-05:00</published><updated>2021-07-09T01:00:00-05:00</updated><id>http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates-es</id><content type="html" xml:base="http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates-es.html">&lt;p&gt;&lt;img src=&quot;/assets/img/posts/art-code-and-updates.png&quot; alt=&quot;Artwork banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde el último post me he dedicado a la actualización y mantenimiento de mis códigos en GitHub. Esto debido a mi repositorio de llevar mis conocimientos a más personas, he realizado varias acciones para hacerlo más atractivo. Parte de ello ha caído en la adición del arte para su difusión por las redes sociales, con lo que espero pueda aumentar la exposición de estas contribuciones a la comunidad.&lt;/p&gt;
+
+&lt;h2 id=&quot;el-arte&quot;&gt;El arte&lt;/h2&gt;
+
+&lt;p&gt;El arte que llevo hasta el momento está distribuido a lo largo de este post, espero que su función haya sido cumplida y te hayas dedicado a observarlos primero antes de empezar con el texto.&lt;/p&gt;
+
+&lt;p&gt;Para la realización de estos dibujos utilice el programa Clip Art Studio, el cuá es usado para la creación de dibujos, cómics y mangas, por lo que resulta ser el mejor candidato para el trabajo, eso y que no había podido encontrar la excusa perfecta de usarlo desde que lo compré.&lt;/p&gt;
+
+&lt;p&gt;Además, he comprobado una vez más lo terapéutico que la realización de arte es, así como tomar fotografías, tienen mi sello de aprobación 🤓.&lt;/p&gt;
+
+&lt;p&gt;Ahora, hablando de la inspiración para este estilo de arte, me basé en las etiquetas que he visto en las laptops de las personas, y aunque no las use en la mía (me gusta mantener el exterior original de mis computadoras) me gusta ver el nivel de personalización y atractivo visual que causan en quienes las observan, por lo que quise copiar ese efecto en mi arte.&lt;/p&gt;
+
+&lt;p&gt;La adición de nuevo arte va a ser agregada de manera intermitente, ya que debo recuperar algo de ritmo para terminar proyectos atrasados, pero eventualmente cubriré todos los repositorios más importantes&lt;/p&gt;
+
+&lt;p&gt;Como siempre, agradezco infinitamente que me hagan llegar sus comentarios acerca de las imágenes.&lt;/p&gt;
+
+&lt;h2 id=&quot;el-código&quot;&gt;El código&lt;/h2&gt;
+
+&lt;p&gt;Cada una de las ilustraciones da imagen a los repositorios más visitados por la comunidad desde que inicié mi viaje por la plataforma de ROS o Robot Operating System. Para quienes no lo conozcan, ésta herramienta hace la función de Middleware, en otras palabras, es el traductor que se encuentra entre el Software y el Hardware, y que en términos prácticos nos ayuda a tener una fácil y mejor comunicación entre los nodos (programas que controlan cada una de las funciones en ROS) de manera distribuida. Cada uno de estos nodos te ayuda separar los componentes de un robot y su controlador de software por sus tareas, fuente o destino. Cada uno de estos nodos pueden estar enfocados ya sea a la adquisición de datos a través de los sensores, la acción de los actuadores, el procesamiento de la información o un controlador de nodos que se encarga de gestionar la interacción entre dos o más nodos. Me gusta verlo como una especie de “pegamento”, ya que te ayuda a partir un problema gigante en problemas más pequeños y fáciles de manejar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/BebopROSExamples_3.jpg&quot; alt=&quot;Bebop_ROS_Examples_image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bebop_ros_examples&quot;&gt;“Bebop_ROS_Examples”&lt;/h3&gt;
+
+&lt;p&gt;La primera ilustración es acerca de mi primer repositorio hecho con una colección de experimentos que hice junto con mis compañeros durante mi estancia en Texas A&amp;amp;M University en 2017. Tengo un cariño especial por este código, ya que fue el que me llevo a tener mis primeros seguidores y empezar a aparecer en la mira de varios desarrolladores y docentes sobre el campo. La colección está diseñada para el drone Parrot Bebop (y en teoría es compatible con Parrot Bebop 2) y contiene códigos de experimentos de lazo abierto, de vehículos múltiples, y otros ejercicios usando un sistema de captura de movimiento.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, para 2018, la colección recibió su última adición para documentar el código para la competencia del Torneo Nacional de Robótica en México, específicamente en la categoría de vehículos aéreos autónomos, donde se consiguió el segundo lugar por el ejercicio de seguimiento de objetos, y nuestra solución fue la mejor de la competencia.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/ros-pyparrot_7.jpg&quot; alt=&quot;ROS Pyparrot Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ros_pyparrot&quot;&gt;“ros_pyparrot”&lt;/h3&gt;
+
+&lt;p&gt;Este repositorio fue creado para formar una plataforma de drones lo suficientemente pequeños para que pudiesen funcionar en grupo y ejecutara comandos de manera independiente. Otros factores como el tamaño de la zona de vuelo y el costo influyeron en la elección del Mambo Parrot como el principal objetivo.&lt;/p&gt;
+
+&lt;p&gt;El código como un todo, funciona igual que un “driver”, esto quiere decir que coordina las comunicaciones entre la computadora y el drone para poder realizar las acciones solicitadas. Al hacer un poco de investigación al respecto, encontré que el método tradicional de comunicación con los celulares o tablets era por medio de Bluetooth y WiFi, con los cuales me sentía muy cómodo, ya que había trabajado con ello en otra ocasión. Sin embargo, ya al investigar más a fondo, descubrí que hacía uso de la versión Bluetooth más reciente, que en ese tiempo era la 4.0, la que introducía una forma de transmisión ahorradora de energía, llamado formalmente como Bluetooth Low Energy (BLE).&lt;/p&gt;
+
+&lt;p&gt;La mayor diferencia entre la versión que yo usé y la BLE es que se necesita “despertar” y “mantener despierta” la vía de comunicación entre ambos extremos de la transmisión. Esto se me presentó como un nuevo reto, así que me puse a investigar sobre algún medio para comunicar el Mambo Parrot con ROS o algún SDK del que pudiera hacer uso para mis experimentos.&lt;/p&gt;
+
+&lt;p&gt;Por desgracia, mis esfuerzos por buscar algo ya hecho fracasaron, así que la única esperanza que me quedaba era intentar hacer Ingeniería Inversa, para ello invertí en un BLE Sniffer, una herramienta para interceptar los paquetes mandados entre ambos extremos de la transmisión y un Mambo Parrot personal por si lo llegaba a romper (los drones sobre los que iba a trabajar eran de la universidad).&lt;/p&gt;
+
+&lt;p&gt;Los primeros esfuerzos dieron pocos resultados, pero me ayudaron a entender mejor el comportamiento del drone, así como   conocer la manera en que esta versión de Bluetooth funcionaba, sin tener que estudiar gran parte del manual oficial. Al poco tiempo, y dentro de las conversaciones en varios foros sobre la Ingeniería Inversa en este drone, me encontré con el trabajo de la Dra. Amy McGovern, quién ya casi descifró todo lo necesario para que el drone funcionara, el nombre de su &lt;a href=&quot;https://github.com/amymcgovern/pyparrot&quot;&gt;proyecto&lt;/a&gt; es &lt;code class=&quot;highlighter-rouge&quot;&gt;pyparrot&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Un vistazo y una prueba rápida después me convencieron para crear una interface entre su trabajo y la plataforma ROS, en base a lo que Autonomy Lab había establecido con &lt;code class=&quot;highlighter-rouge&quot;&gt;bebop_autonomy&lt;/code&gt;. Poco tiempo después, obtuve los resultados que buscaba, e incluso pude incluir funcionalidades que aún no habían sido agregadas, como el auto despegue, donde lanzas el drone al aire para que éste se mantenga volando. Gracias a ROS, era posible hacer despegar hasta 8 drones al mismo tiempo (por especificaciones de BLE). Al ver volar a todos esos drones, lo llamé un éxito y me fui a dormir.&lt;/p&gt;
+
+&lt;p&gt;Aún espero agregar un par de funcionalidades que me hacen falta…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/Mambo_ROS_Examples_2.jpg&quot; alt=&quot;Mambo ROS Examples Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mambo_ros_examples&quot;&gt;“Mambo_ROS_Examples”&lt;/h3&gt;
+
+&lt;p&gt;Este repositorio es el sucesor espiritual de “Bebop_ROS_Examples”, el cual contiene varios de esos experimentos pero mejorados y otros más que involucran a dos o más drones. El proyecto se basó completamente en las necesidades de la prueba del drone mismo y realizar los experimentos para un artículo de conferencia en &lt;a href=&quot;https://doi.org/10.1109/GCWkshps45667.2019.9024528&quot;&gt;“IEEE Globecom Workshop on Computing Centric Drone Networks” &lt;/a&gt; y una entrada al Journal &lt;a href=&quot;https://doi.org/10.1109/TCST.2020.3020783&quot;&gt;“IEEE Transactions on Control Systems Technology”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Necesité bastante tiempo para completar esta serie de experimentos, sin embargo, me alegra que lo hice y además me tomé el tiempo de hacerlo bien, ya que tanto este repositorio como los dos anteriores están sirviendo de material de apoyo para alumnos en varias universidades alrededor del mundo, y me doy cuenta por quienes los siguen y la temporada en que son vistos o clonados.&lt;/p&gt;
+
+&lt;p&gt;Espero poder continuar expandiendo con este proyecto pronto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/ros_gopro_driver_6.jpg&quot; alt=&quot;ros-gopro-driver Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ros-gopro-driver&quot;&gt;“ros-gopro-driver”&lt;/h3&gt;
+
+&lt;p&gt;Ya por último, este es el repositorio de ROS más nuevo que he publicado, casi al igual que con &lt;code class=&quot;highlighter-rouge&quot;&gt;pyparrot&lt;/code&gt;, no encontré una manera de poder grabar mis experimentos con mi GoPro y ROS de manera independiente (eran parte de otros paquetes y solo ciertas funciones), sin que tuviera que meterme dentro de la zona de pruebas a iniciar la grabación. Claro, podía usar la aplicación para smartphones, pero a veces lo usaba para monitorear otras cosas del experimento, datos de ubicación, estado, entre otras cosas.&lt;/p&gt;
+
+&lt;p&gt;Así que tuve que acostumbrarme a ello hasta que concluí la maestría. Después de que me mudé a Las Cruces, Nuevo México, tuve el tiempo de trabajar de nuevo sobre el tema, poco después encontré una &lt;a href=&quot;https://github.com/KonradIT/goprowifihack&quot;&gt;API por WiFi recolectada por KonradIT&lt;/a&gt;, fue allí que encontré una forma directa de interactuar con las cámaras mediante la librería &lt;code class=&quot;highlighter-rouge&quot;&gt;requests&lt;/code&gt; de Python y extender los comandos e información a ROS.&lt;/p&gt;
+
+&lt;p&gt;Hasta este punto, ya era capaz de manejar la cámara y hacer uso de varias de las funciones principales de la cámara, ahora solamente me hacía falta encontrar la manera de transmitir vídeo en vivo para incluirlo dentro de ROS. Afortunadamente, ya había tenido tiempo jugando con el proyecto &lt;a href=&quot;http://ffmpeg.org/&quot;&gt;FFMPEG&lt;/a&gt; y los tutoriales de &lt;a href=&quot;https://github.com/leandromoreira/ffmpeg-libav-tutorial&quot;&gt;Leandro Moreira&lt;/a&gt; (los cuales ayudé a traducir al idioma español, como agradecimiento), y fueron estas herramientas las que me pusieron en buen camino para capturar y decodificar cada uno de los paquetes que se reciben a la mayor velocidad posible, comparándose de forma similar a lo que se entrega en la aplicación oficial, al menos de manera subjetiva (más pruebas serán efectuadas en el futuro).&lt;/p&gt;
+
+&lt;p&gt;El código se encontraba listo y solo faltaba probarlo, para mi suerte funcionó de maravilla, claro había varias regiones con corrupciones de píxeles pero se encontraban de igual manera en la aplicación oficial, así que mi teoría se centra en la calidad de la conexión de la antena WiFi (estoy considerando consultar a Leandro por alguna idea).&lt;/p&gt;
+
+&lt;p&gt;Ya solo me hacía falta que alguien lo probara en su computadora para confirmar que se podía reproducir el mismo resultado, así que decidí enviarlo a mi amigo &lt;a href=&quot;https://github.com/ekrell&quot;&gt;Evan Krell&lt;/a&gt; de la Texas A&amp;amp;M University - Corpus Christi, quien confirmó su funcionamiento, hizo uso práctico del programa en su proyecto y se convirtió como contribuidor del repositorio, con toda esa evidencia hice un Tweet con el estado actual del código… y a la comunidad le encantó. 🖤&lt;/p&gt;
+
+&lt;p&gt;Tanto les encantó que salimos en el &lt;a href=&quot;https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051&quot;&gt;resumen semanal de ROS&lt;/a&gt; y tiempo después en un &lt;a href=&quot;https://ubuntu.com/blog/the-state-of-robotics-february-2021&quot;&gt;artículo de Ubuntu&lt;/a&gt;. Fue asombroso, y para rematar nos publicaron en la misma semana que el Perseverance e Ingenuity habían aterrizado sobre Marte, así que fuimos el segundo lugar en clicks (el primero después de la noticia en Marte).&lt;/p&gt;
+
+&lt;p&gt;Esto me motivó a intentar empujar el limite un poco más para aceptar más cámaras y funcionalidades en el futuro, así como ver la forma de contribuir dentro del código fuente de ROS 2, ya que se ha hecho pública su utilización en la misión lunar del 2023 por la NASA, y yo quiero poder contribuir a algo así (eso y que por el éxito de Perseverance e Ingenuity en Marte, estuvieron regalando insignias especiales a todos los contribuidores de las librerías Open Source que se utilizan en la misión).&lt;/p&gt;
+
+&lt;h2 id=&quot;-y-las-actualizaciones&quot;&gt;… y las actualizaciones&lt;/h2&gt;
+
+&lt;p&gt;Ahora en cuanto a las actualizaciones de código, he estado trabajando en el mantenimiento de viejo código así como la adición de nuevas características para el “driver” de la cámara GoPro con ROS como la obtención del estado de la cámara,   hacer un registro que relacione los vídeos con los experimentos automáticamente, todo con el fin de terminar los proyectos pendientes y saltar a la siguiente versión de la plataforma, ROS 2.&lt;/p&gt;
+
+&lt;p&gt;En este punto, me tomaré un tiempo para entender más el mecanismo interno de ROS 2, con lo que espero ahondar mi conocimiento sobre la plataforma y tomar las decisiones necesarias para la migración de mis repositorios más importantes. Sin embargo, es importante conocer que es posible entrelazar nodos de ambas versiones, así que siempre está la posibilidad de continuar con solamente mantener las herramientas en ROS y no llevar a cabo la migración.&lt;/p&gt;
+
+&lt;h2 id=&quot;pero-antes-un-mensaje-final&quot;&gt;Pero antes, un mensaje final:&lt;/h2&gt;
+
+&lt;p&gt;Si tienes un buen ojo y has revisado los repositorios e imágenes que aquí se presentan, te darás cuenta de una  actualización sorpresa que esta por salir al publico.&lt;/p&gt;
+
+&lt;p&gt;También dentro de este ambiente secreto (temporal), les digo que tengo varios proyectos atrasados en los que voy a reanudar los esfuerzos de desarrollo, van a tardar un poco, y más con las nuevas adiciones de conocimiento gracias Nvidia y su evento de la GTC 2021.&lt;/p&gt;
+
+&lt;p&gt;Also at the moment I’m finishing writing this post, I just attended to TalentLand 2021, an event where important tech companies and people go to instruct and coach students to get into this world, I will talk more about it at the next post.&lt;/p&gt;
+
+&lt;p&gt;Al momento de finalizar la escritura de este post, acabo de finalizar mi asistencia a TalentLand 2021, un evento donde compañías y personas del área de tecnología se reúnen para instruir y aconsejar a estudiantes para involucrarse en ese mundo, hablaré más de ello en el siguiente post.&lt;/p&gt;
+
+&lt;p&gt;Espero que hayas disfrutado de la lectura, ahora a disfrutar un buen café… ☕&lt;/p&gt;</content><author><name></name></author><category term="art" /><category term="code" /><category term="updates" /><category term="ros" /><summary type="html"></summary></entry><entry xml:lang="en"><title type="html">Art, code and updates</title><link href="http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates.html" rel="alternate" type="text/html" title="Art, code and updates" /><published>2021-07-09T01:00:00-05:00</published><updated>2021-07-09T01:00:00-05:00</updated><id>http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates</id><content type="html" xml:base="http://localhost:4000/art/code/updates/ros/2021/07/09/art-code-and-updates.html">&lt;p&gt;&lt;img src=&quot;/assets/img/posts/art-code-and-updates.png&quot; alt=&quot;Artwork banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the last post I have dedicated myself to updating and maintaining my codes on GitHub. This due to my purpose of bringing my knowledge to more people, I have made several actions to make it more attractive. Part of this has fallen into adding art for dissemination through social networks, with which I hope I can increase the exposure of these contributions to the community.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-art&quot;&gt;The art&lt;/h2&gt;
+
+&lt;p&gt;The art that I have so far is distributed throughout this post, I hope that its function has been fulfilled and you have dedicated yourself to observe them first before starting with the text.&lt;/p&gt;
+
+&lt;p&gt;For the realization of these drawings I used the Clip Art Studio program, which is used for the creation of drawings, comics and manga, so it turns out to be the best candidate for the job, that and I had not been able to find the perfect excuse to use it since I bought it.&lt;/p&gt;
+
+&lt;p&gt;Also, I have proven once again how therapeutic making art is, as well as taking pictures, they have my seal of approval 🤓.&lt;/p&gt;
+
+&lt;p&gt;Now, speaking of the inspiration for this style of art, I based it on the labels I’ve seen on people’s laptops, and although I don’t use them on mine (I like to keep the original exterior of my computers) but I like to see the level of personalization and visual appeal they cause in those who look at them, so I wanted to copy that effect in my art.&lt;/p&gt;
+
+&lt;p&gt;The addition of new art is going to be added intermittently, as I need to pick up some pace to finish backlogged projects, but eventually I will cover all the major repositories.&lt;/p&gt;
+
+&lt;p&gt;As always, I am infinitely grateful for your feedback on the images.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-code&quot;&gt;The code&lt;/h2&gt;
+
+&lt;p&gt;Each of the illustrations gives image to the most visited repositories by the community since I started my journey through the ROS or Robot Operating System platform. For those who don’t know it, this tool works as Middleware, in other words, it is the translator between Software and Hardware, and in practical terms it helps us to have an easy and better communication between the nodes (programs that control each of the functions in ROS) in a distributed way. Each of these nodes helps you to separate the components of a robot and its software controller by their tasks, source or destination. Each of these nodes can be focused on either data acquisition through sensors, actuator action, information processing, or a node controller that is responsible for managing the interaction between two or more nodes. I like to see it as a kind of “glue”, as it helps you to split a giant problem into smaller and easier to handle problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/BebopROSExamples_3.jpg&quot; alt=&quot;Bebop_ROS_Examples_image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bebop_ros_examples&quot;&gt;“Bebop_ROS_Examples”&lt;/h3&gt;
+
+&lt;p&gt;The first illustration is about my first repository made with a collection of experiments that I made together with my classmates during my stay at Texas A&amp;amp;M University in 2017. I have a special fondness for this code, as it was the one that led me to have my first followers and start appearing in the sights of several developers and teachers about the field. The collection is designed for the Parrot Bebop drone (and in theory is compatible with Parrot Bebop 2) and contains code for open-loop experiments, multi-vehicle experiments, and other exercises using a motion capture system.&lt;/p&gt;
+
+&lt;p&gt;Finally, for 2018, the collection received its last addition to document code for the National Robotics Tournament competition in Mexico, specifically in the autonomous aerial vehicle category, where second place was achieved for the object tracking exercise, and our solution was the best in the competition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/ros-pyparrot_7.jpg&quot; alt=&quot;ROS Pyparrot Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ros_pyparrot&quot;&gt;“ros_pyparrot”&lt;/h3&gt;
+
+&lt;p&gt;This repository was created to form a platform of drones small enough to operate as a group and execute commands independently. Other factors such as the size of the flying area and cost influenced the choice of the Mambo Parrot as the main target.&lt;/p&gt;
+
+&lt;p&gt;The code as a whole, works just like a “driver”, meaning that it coordinates communications between the computer and the drone in order to perform the requested actions. When I did some research about it, I found that the traditional method of communication with cell phones or tablets was via Bluetooth and WiFi, with which I felt very comfortable, as I had worked with it on another occasion. However, upon further investigation, I discovered that I was using the most recent Bluetooth version, which at that time was 4.0, which introduced a form of energy-saving transmission, formally called Bluetooth Low Energy (BLE).&lt;/p&gt;
+
+&lt;p&gt;The major difference between the version I used and BLE is that you need to “wake up” and “keep awake” the communication path between both ends of the transmission. This presented me with a new challenge, so I set about researching some means of communicating the Mambo Parrot with ROS or some SDK that I could make use of for my experiments.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, my efforts to find something already done failed, so the only hope I had left was to try to do Reverse Engineering, so I invested in a BLE Sniffer, a tool to intercept the packets sent between both ends of the transmission and a personal Mambo Parrot in case I broke it (the drones I was going to work on were from the university).&lt;/p&gt;
+
+&lt;p&gt;The first efforts yielded few results, but they helped me to better understand the behavior of the drone, as well as to know how this version of Bluetooth worked, without having to study much of the official manual. Soon after, and within the conversations in several forums about the Reverse Engineering on this drone, I came across the work of Dr. Amy McGovern, who already almost figured out everything needed to make the drone work, the name of her &lt;a href=&quot;https://github.com/amymcgovern/pyparrot&quot;&gt;project&lt;/a&gt; is &lt;code class=&quot;highlighter-rouge&quot;&gt;pyparrot&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;A quick look and test later convinced me to create an interface between her work and the ROS platform, based on what Autonomy Lab had established with &lt;code class=&quot;highlighter-rouge&quot;&gt;bebop_autonomy&lt;/code&gt;. Soon after, I got the results I was looking for, and was even able to include functionality that had not yet been added, such as auto takeoff, where you launch the drone into the air to keep it flying. Thanks to ROS, it was possible to launch up to 8 drones at the same time (per BLE specs). Seeing all those drones flying, I called it a success and went to sleep.&lt;/p&gt;
+
+&lt;p&gt;I’m still waiting to add a couple of features I’m missing….&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/Mambo_ROS_Examples_2.jpg&quot; alt=&quot;Mambo ROS Examples Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mambo_ros_examples&quot;&gt;“Mambo_ROS_Examples”&lt;/h3&gt;
+
+&lt;p&gt;This repository is the spiritual successor of “Bebop_ROS_Examples”, which contains several of those experiments but improved and others involving two or more drones. The project was based entirely on the needs of testing the drone itself and performing the experiments for a conference paper in &lt;a href=&quot;https://doi.org/10.1109/GCWkshps45667.2019.9024528&quot;&gt;“IEEE Globecom Workshop on Computing Centric Drone Networks” &lt;/a&gt; and an entry to the Journal &lt;a href=&quot;https://doi.org/10.1109/TCST.2020.3020783&quot;&gt;“IEEE Transactions on Control Systems Technology”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I needed quite some time to complete this series of experiments, however, I am glad I did it and also took the time to do it right, as both this repository and the previous two are serving as support material for students at various universities around the world, and I can tell by who follows them and the season in which they are viewed or cloned.&lt;/p&gt;
+
+&lt;p&gt;I hope to be able to continue expanding this project soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toton95.github.io/assets/img/posts/ros_gopro_driver_6.jpg&quot; alt=&quot;ros-gopro-driver Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ros-gopro-driver&quot;&gt;“ros-gopro-driver”&lt;/h3&gt;
+
+&lt;p&gt;Finally, this is the newest ROS repository I have published, almost like with &lt;code class=&quot;highlighter-rouge&quot;&gt;pyparrot&lt;/code&gt;, I did not find a way to record my experiments with my GoPro and ROS independently (they were part of other packages and only certain functions), without having to get inside the test area to start recording. Sure, I could use the smartphone app, but sometimes I used it to monitor other things in the experiment, location data, status, among other things.&lt;/p&gt;
+
+&lt;p&gt;So I had to get used to it until I finished my master’s degree. After I moved to Las Cruces, New Mexico, I had the time to work on it again, soon after I found a &lt;a href=&quot;https://github.com/KonradIT/goprowifihack&quot;&gt;WiFi API collected by KonradIT&lt;/a&gt;, it was there that I found a direct way to interact with the cameras through the Python &lt;code class=&quot;highlighter-rouge&quot;&gt;requests&lt;/code&gt; library and extend the commands and information to ROS.&lt;/p&gt;
+
+&lt;p&gt;Up to this point, I was already able to manage the camera and make use of several of the camera’s main functions, now I just needed to find a way to stream live video to include it within ROS. Fortunately, I had already had some time playing with the &lt;a href=&quot;http://ffmpeg.org/&quot;&gt;FFMPEG&lt;/a&gt; project and &lt;a href=&quot;https://github.com/leandromoreira/ffmpeg-libav-tutorial&quot;&gt;Leandro Moreira&lt;/a&gt; tutorials (which I helped to translate into Spanish, as appreciation), and it was these tools that put me on the right track to capture and decode each of the packets that are received at the highest possible speed, comparing similarly to what is delivered in the official application, at least subjectively (more tests will be done in the future).&lt;/p&gt;
+
+&lt;p&gt;The code was ready and I just needed to test it, to my luck it worked great, of course there were several regions with pixel corruptions but they were the same in the official application, so my theory focuses on the quality of the WiFi antenna connection (I’m considering consulting Leandro for any idea).&lt;/p&gt;
+
+&lt;p&gt;I just needed someone to test it on their computer to confirm that the same result could be reproduced, so I decided to send it to my friend &lt;a href=&quot;https://github.com/ekrell&quot;&gt;Evan Krell&lt;/a&gt; from Texas A&amp;amp;M University - Corpus Christi, who confirmed it worked, made practical use of the program in his project and became a contributor to the repository, with all that evidence I made a Tweet with the current status of the code… and the community loved it. 🖤&lt;/p&gt;
+
+&lt;p&gt;They loved it so much that we were featured in the &lt;a href=&quot;https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051&quot;&gt;ROS weekly roundup&lt;/a&gt; and some time later in an &lt;a href=&quot;https://ubuntu.com/blog/the-state-of-robotics-february-2021&quot;&gt;Ubuntu article&lt;/a&gt;. It was amazing, and to top it off we were published in the same week that Perseverance and Ingenuity had landed on Mars, so we were second in clicks (first after the Mars news).&lt;/p&gt;
+
+&lt;p&gt;This motivated me to try to push the limit a bit more to accept more cameras and functionalities in the future, as well as to see how to contribute to the ROS 2 source code, since it has been made public its use in the 2023 lunar mission by NASA, and I want to be able to contribute to something like that (that and for the success of Perseverance and Ingenuity on Mars, they were giving away special badges to all contributors of the Open Source libraries used in the mission).&lt;/p&gt;
+
+&lt;h2 id=&quot;-and-updates&quot;&gt;… and updates&lt;/h2&gt;
+
+&lt;p&gt;Now in terms of code updates, I have been working on maintaining old code as well as adding new features for the GoPro camera driver with ROS such as getting the camera status, making a log that relates videos to experiments automatically, all in order to finish the pending projects and jump to the next version of the platform, ROS 2.&lt;/p&gt;
+
+&lt;p&gt;At this point, I will take some time to understand more about the internal mechanism of ROS 2, which I hope to increase my knowledge about the platform and make the necessary decisions for the migration of my most important repositories. However, it is important to know that it is possible to intertwine nodes from both versions, so there is always the possibility of continuing with just keeping the tools in ROS and not carrying out the migration.&lt;/p&gt;
+
+&lt;h2 id=&quot;before-you-go-a-final-message&quot;&gt;Before you go, a final message:&lt;/h2&gt;
+
+&lt;p&gt;If you have a keen eye and have reviewed the repositories and images presented here, you will notice a surprise update that is about to be released to the public.&lt;/p&gt;
+
+&lt;p&gt;Also within this secret (temporary) environment, I tell you that I have several backlogged projects in which I will resume my development efforts, they are going to take a while, and more with the new knowledge additions thanks Nvidia and their GTC 2021 event.&lt;/p&gt;
+
+&lt;p&gt;Also at the moment I’m finishing writing this post, I just attended to TalentLand 2021, an event where important tech companies and people go to instruct and coach students to get into this world, I will talk more about it at the next post.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoyed reading this, now let’s enjoy a good coffee…. ☕&lt;/p&gt;</content><author><name></name></author><category term="art" /><category term="code" /><category term="updates" /><category term="ros" /><summary type="html"></summary></entry><entry xml:lang="es"><title type="html">Bienvenidos a mi blog</title><link href="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es.html" rel="alternate" type="text/html" title="Bienvenidos a mi blog" /><published>2021-06-11T18:00:00-05:00</published><updated>2021-06-11T18:00:00-05:00</updated><id>http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es</id><content type="html" xml:base="http://localhost:4000/introduction/about/bio/2021/06/11/introductory-post-es.html">&lt;p&gt;​	Hola, mi nombre es Alexis Guijarro y me considero un desarrollador de robótica y creador de software abierto. Soy nativo de México y sí, como buen mexicano, me gustan los tacos de calle, unos buenos memes y un agradable tiempo de comedia.&lt;/p&gt;
 
 &lt;p&gt;Aunque hasta el momento no soy muy conocido en las redes, he realizado contribuciones esporádicas a proyectos de fuente libre, ya sea generando nuevo código, talleres y traducciones.&lt;/p&gt;
 
