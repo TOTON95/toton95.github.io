@@ -96,14 +96,29 @@ layout: default
         <div class="col50"></div>
     </div>
     <div class="row">
-        <div class="col">
-            <ul>
-                {% for post in site.posts %}
-                <li>
-                    <a href="{{ post.url }}">{{post.date | date: '%B %d, %Y' }}:  {{ post.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
+        <div class="col50">
+            <h2>English</h2>
+            <br>
+            {% for post in site.posts %}
+            {% if post.lang == "en" %}
+            <li>
+                <a href="{{ post.url }}">{{post.date | date: '%b %d, %Y' }}: {{ post.title }}</a>
+            </li>
+            <br>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col50">
+            <h2>Español</h2>
+            <br>
+            {% for post in site.posts %}
+            {% if post.lang == "es" %}
+            <li>
+                <a href="{{ post.url }}">{{post.date | date: '%d-%m-%Y' }}: {{ post.title }}</a>
+            </li>
+            <br>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
 </section>
