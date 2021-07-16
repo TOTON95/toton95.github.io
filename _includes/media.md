@@ -1,3 +1,4 @@
-- [TAMUCC's News](https://fb.watch/4ySsEwpFND/)
-- [ROS News for the Week of February 15, 2021](https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051)
+- [ROS News for the Week of July 7, 2021](https://discourse.ros.org/t/ros-news-for-the-week-of-7-12-2021/21416)
 - [Ubuntu's State of Robotics](https://ubuntu.com/blog/the-state-of-robotics-february-2021)
+- [ROS News for the Week of February 15, 2021](https://discourse.ros.org/t/ros-news-for-the-week-of-2-19-2021/19051)
+- [TAMUCC's News](https://fb.watch/4ySsEwpFND/)
