@@ -295,6 +295,9 @@ section {
     }
 }
 
+.reading-time{
+    padding: 25vh;
+}
 
 
 .quicklink .row .col {
@@ -529,6 +532,12 @@ section {
         padding-right: 2vh;
         font-size: 4vh;
     }
+
+    .reading-time{
+        padding: 2vh;
+    }
+
+
 }
 
 @media (max-width: 480px) {

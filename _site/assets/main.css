@@ -37,6 +37,9 @@ p {
   text-align: justify;
   text-justify: inter-word; }
 
+.reading-time {
+  font-weight: normal; }
+
 * {
   margin: 0;
   padding: 0;
@@ -277,6 +280,9 @@ section {
   padding-left: 25vh;
   padding-right: 25vh; }
 
+.reading-time {
+  padding: 25vh; }
+
 .quicklink .row .col {
   text-align: center;
   font-size: 1.1em;
@@ -458,7 +464,10 @@ section {
   .blog-post .row .col50 a {
     padding-left: 2vh;
     padding-right: 2vh;
-    font-size: 4vh; } }
+    font-size: 4vh; }
+
+  .reading-time {
+    padding: 2vh; } }
 @media (max-width: 480px) {
   .banner .content h2 {
     font-size: 2.2em;
