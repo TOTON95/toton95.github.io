@@ -6,6 +6,7 @@ lang: en
 lang-ref: welcome-to-my-blog
 published: true
 categories: introduction about bio 
+comments: true
 ---
 
 

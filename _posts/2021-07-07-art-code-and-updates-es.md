@@ -6,6 +6,7 @@ lang: es
 lang-ref: art-code-and-updates
 published: true
 categories: art code updates ros
+comments: true
 ---
 
 

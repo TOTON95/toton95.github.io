@@ -6,5 +6,6 @@ lang: en
 lang-ref: talentland-and-minidrones
 published: true
 categories: code updates ros drones parrot
+comments: true
 ---
 

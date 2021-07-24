@@ -6,6 +6,7 @@ lang: es
 lang-ref: talentland-and-minidrones
 published: true
 categories: code updates ros drones parrot
+comments: true
 ---
 
 Hola de nuevo, espero y sigas bien, con un buen café a tu lado y acomodado en tu silla favorita para trabajar desde casa. 
