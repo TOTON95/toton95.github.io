@@ -293,8 +293,20 @@ section {
         padding-left: 25vh;
         padding-right: 25vh;
     }
+
+    ul {
+        padding-left: 27vh;
+        padding-right: 27vh;
+    }
 }
 
+.reading-time{
+    padding: 25vh;
+}
+
+.disqus_box{
+    padding: 5vh 25vh;
+}
 
 
 .quicklink .row .col {
@@ -516,7 +528,12 @@ section {
         a {
             padding-left: 2vh;
             padding-right: 2vh;
-        }   
+        }
+        
+        ul {
+            padding-left: 4vh;
+            padding-right: 4vh;
+        }
     }
 
     .blog-post .row p {
@@ -529,6 +546,16 @@ section {
         padding-right: 2vh;
         font-size: 4vh;
     }
+
+    .reading-time{
+        padding: 2vh;
+    }
+
+    .disqus_box{
+        padding: 0.5vh 2vh;
+    }
+
+
 }
 
 @media (max-width: 480px) {

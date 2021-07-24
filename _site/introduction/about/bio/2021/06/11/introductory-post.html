@@ -33,6 +33,14 @@
     <div class="row">
         <div class=col>
             <h1>Welcome to my Blog</h1>
+            <!-- From https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/ Thanks Carlos Becker! -->
+<span class="reading-time" title="Estimated read time">
+  
+  
+    5 mins
+  
+</span>
+            <br>
             <br>
             <p>​	Hello, my name is Alexis Guijarro and I am a robotics developer and an open source creator. I am from Mexico and yes, as a good mexican, I like street tacos, some buenos memes and a good time with comedy.</p>
 
@@ -89,13 +97,44 @@
 
         </div>
     </div>
-    
     <div class="row">
         <div class="col">
             
             <a href="/#blog" onclick="toggleMenu();">Return to Blog</a>
         </div>
     </div>
+    
+    <div class="row">
+        <div class="col">
+            <div class="disqus_box" id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+                /*
+                var disqus_config = function () {
+                    // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.url = PAGE_URL;  
+         
+                    // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    this.page.identifier = PAGE_IDENTIFIER; 
+                };
+                */
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://toton95.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+        </div>
+    </div>
+    
+    
 </section>
     <!-- Here goes Jekyll content -->
 

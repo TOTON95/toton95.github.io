@@ -37,6 +37,9 @@ p {
   text-align: justify;
   text-justify: inter-word; }
 
+.reading-time {
+  font-weight: normal; }
+
 * {
   margin: 0;
   padding: 0;
@@ -276,6 +279,15 @@ section {
 .blog-post .row .col a {
   padding-left: 25vh;
   padding-right: 25vh; }
+.blog-post .row .col ul {
+  padding-left: 27vh;
+  padding-right: 27vh; }
+
+.reading-time {
+  padding: 25vh; }
+
+.disqus_box {
+  padding: 5vh 25vh; }
 
 .quicklink .row .col {
   text-align: center;
@@ -450,6 +462,9 @@ section {
   .blog-post .row .col a {
     padding-left: 2vh;
     padding-right: 2vh; }
+  .blog-post .row .col ul {
+    padding-left: 4vh;
+    padding-right: 4vh; }
 
   .blog-post .row p {
     padding-left: 2vh;
@@ -458,7 +473,13 @@ section {
   .blog-post .row .col50 a {
     padding-left: 2vh;
     padding-right: 2vh;
-    font-size: 4vh; } }
+    font-size: 4vh; }
+
+  .reading-time {
+    padding: 2vh; }
+
+  .disqus_box {
+    padding: 0.5vh 2vh; } }
 @media (max-width: 480px) {
   .banner .content h2 {
     font-size: 2.2em;
