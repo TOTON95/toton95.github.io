@@ -1,0 +1,156 @@
+---
+layout: post
+title: "Community and more conferences"
+date: 2021-09-15 01:00:00 -0500
+lang: es
+lang-ref: community-and-more-conferences
+published: true
+categories: community updates px4 drones conferences 
+comments: true
+---
+
+Hi, it's been quite a while since my last update. I will use the opportunity to adjust the frequency of posts to at least one per month, as I will be more active in creating content in the form of live streams in different parts of the network, as time permits.
+
+In this post I'm going to tell you about the different communities I belong to and actively participate in, I'm also going to talk about some conferences I've been to or plan to go to for the rest of the year, again all related to science and technology and as is the custom also some coding.
+
+So again, have your drink ready, have a seat in your favorite chair or armchair (or bed-desk in some of the special cases, greetings Josh), because although I will take some of your time, I think I can give you in return a couple of things that may help or interest you a lot.
+
+
+
+## About communities
+
+I consider communities to be an important part of us as people, after all, we are social beings, although this field tends to take you a bit away from people, it is important to maintain the connections we have with them and seek to grow together.
+
+Next I will talk about the three communities I belong to, there is no particular order and I love them all equally, as each one has its own theme, resources and problems to solve.
+
+### Self.dev (devinitely healthy)
+
+*Self.dev](https://devinitelyhealthy.com/),* as the name says (both new and old) is focused on self-development and work-life balance. This community is primarily made up of people from diverse fields, ranging from web and application development, data science, and trading to engineers, writers, and educators. Its members come from various parts of the world and it is constantly expanding. 
+
+
+Its main activities fall within the creation of educational content, sharing knowledge and motivation for personal development, providing a friendly environment of coexistence, and even help for some of the problems related to technology, however, it should be noted that this support comes directly from the members, and I suggest you ask if someone is available. One of the most important reasons is due to one of its features that I consider one of the most important, the co-working transmitted by Twitch channels created by its members.
+
+I don't know if this has been on the Internet for a long time, mainly on Twitch. But as I understand it, this trend appeared with the current health contingency situation, where people began to look for ways to coexist while working from home and one of them was to share a "virtual office" space where they could be in contact with other people, this applies equally to students of various levels. This is how I met them.
+
+I arrived at what was then called *devinitely healthy*, in a moment that we could call "sad", since I had gone through a lot of stress and "amxiety", coming from the work load at the university and other personal situations, which I will not discuss at the moment. 
+
+In this community I found part of my motivation to get back to "functioning" in the right way, without getting worn out again. By wear-out I mean a *burn-out* which is a state, in which I do not wish anyone to end up there. And so it was also in this community, where I found a more educated way of working so as not to neglect my personal life. 
+
+Fortunately, I have recovered much of my resilience and I am forming mechanisms to prevent me from losing it again, with some luck and effort, this will not happen again.
+
+Currently, *devinitely healthy* is undergoing a rebranding, where they are displaying a name and images that are more in line with the values they share with the world. Consider visiting the community if you have the opportunity.
+
+Here are some of the member channels in the community: 
+
+[https://www.twitch.tv/longlikeshort](https://www.twitch.tv/longlikeshort)
+
+[https://www.twitch.tv/hungrymood](https://www.twitch.tv/hungrymood)
+
+[https://www.twitch.tv/afemalecoder](https://www.twitch.tv/afemalecoder)
+
+[https://www.twitch.tv/10act](https://www.twitch.tv/10act)
+
+... among others, including *Josh*.
+
+If things become more favorable in the near future, I hope to be able to join their streamer ranks in co-working soon.
+
+*Note: Although most people come from different parts of the world, English has been chosen as the official language, although from time to time we end up saying "water" in 5 different languages*. 
+
+### thatcsharpguy / kode kai
+
+We have in this community (*thatcsharpguy*), which is a bit older than *Self.dev*, where its main actor is a Mexican streamer ([Antonio Feregrino](https://www.youtube.com/thatcsharpguy)) who is specializing in data science and MLOPS. 
+
+He also holds a Masters degree in Computer Science, so when I got to connect to his talk, we apparently understood each other very well. Then things happened organically and little by little I have dedicated myself to help in whatever I can to assist his content, which by the way, is very good, at least with the educational part and lately with his series of interviews, where he brings out high quality interviewees in the field of programming and data science. Other types of content are related to book reviews and casual chats with subs.
+
+Talking about interviews, he is also part of *kode kai* where together with [Adrián Fernández](https://adfernandez.dev/), they discuss several of the current issues that are impacting the world of technology and software development. Generally, their talks are entertaining and at a time that is easy for me to watch, shortly before or after dinner and that allows me to actively participate in his talk. 
+
+His target audience is in Latin America and any Spanish-speaking country (according to rumors during the streams, there is a country in Africa where they speak Spanish, so that one too), and therefore they offer their point of view about the industry in LatAm.
+
+Although I was already subscribed to Antonio since around 2018, I wasn't an active participant of their activities, if not until a similar time I joined *Self.dev*. Again, what attracted me to his content, has been his high educational value and the care he puts into his work for the benefit of others.
+
+His participation can also be seen in his [Twitter](https://twitter.com/io_exception) threads and the data and data visualization blog, [Tacos de datos](https://www.tacosdedatos.com/).
+
+I'm glad, to have ended up in such a community and will do what I can to help keep it going. 
+
+For now, I'll try to convince him to use his Raspberry Pi more and start programming in CUDA Fortran for a graphics card (yes, just because).
+
+*Note: The content posted here is in the English language.
+
+**Links**:
+
+[That C# Guy](https://www.youtube.com/channel/UC8KCb358oioQMcJ5pUfs8UQ)
+
+[Kode Kai](https://www.youtube.com/channel/UCEOGKsAcIpVGxgdCTq7z-Zg)
+
+### Robots LatAm
+
+Robots LatAm is a Latin American community that emerged due to the absence of communities with the characteristics of other branches of technology. Founded by [Diana Martinez](https://www.diananerd.com/) along with other people, this community presents a multidisciplinary space for people who are in the robotics area or wish to be in the field, can find the initial or complementary support to learn the basic concepts and state of the art on a large number of topics.
+
+Due to the very nature of robotics, this catalog of topics can be quite extensive to relate in this post, so I recommend going to [visit their repository on GitHub](https://github.com/robotslatam/learning-path), which contains many of the topics we consider necessary for the field of robotics. 
+
+The community itself has been noted for its steady improvement since its recent inception, so you can expect more entries in the near future.  Part of that improvement can be seen in the quantity and quality of the speakers that are invited to their weekly meetings, these characters range from academics to highly specialized technicians, where they show their work and in some cases, give workshops for free and recorded for future visits of new members. 
+
+However, it is worth mentioning that this type of progress in such a short time has been achieved by bringing people together and already, this is due to the internal organization of their volunteer teams, which are chosen based on their availability and ability to contribute in a specific area of the community. It can be design, content creation, technical advice, among others.
+
+From my personal perspective, I believe that there is potential to become an important community, if this organization is maintained and its members are increasing, it is possible to achieve greater and greater things.
+
+I arrived to this community after a series of [tweets](https://twitter.com/mrpollo/status/1404497339528757252) that triggered subsequent responses where several spaces to make community in Latin America were made known.
+
+I feel that I came to the right place, and that I will be helping it grow, both by completing several of the tasks that need to be accomplished, such as technical advice and creation of educational materials.
+
+### !!! Robots LatAm Commercial !!!!
+
+We look forward to seeing you on *Saturday, September 18, 2021 at 1:00pm GMT-5,* for the new "Understanding Neural Networks" talk by Michelle Girón.  
+
+Good amount of quality content is on the way.
+
+*Note: The content posted here is in the Spanish language. 
+
+**Links**:
+
+[Twitter](https://twitter.com/robots_latam?lang=en)
+
+[Youtube](https://www.youtube.com/channel/UChXty-ceG8zfpp7gT1_6big)
+
+
+
+## More and more conferences 
+
+### PX4 Developer Summit 2021
+
+Right now I am at the end of day 1 of one of the most important Open Source drone conferences of the year, [PX4 Developer Summit 2021](https://events.linuxfoundation.org/px4-developer-summit/).
+
+This conference revolves around unmanned aerial vehicles (UAVs), ranging from low-level development for control of their systems and navigation, to high-level management and applications that allow to create autonomy in these devices. As with other conferences, this one is held virtually. 
+
+In the last post, I had already touched on some of the benefits and disadvantages of this type of conferencing. For those who read me for the first time, I can tell you that it allows more people to have access, without the inconvenience of moving to the place of the event, along with the expenses, paperwork and basically, logistical nightmares. Of course, everything will have its downside, in this case, networking can be disastrous if not handled with care. If there is one thing I have learned, it is that these types of interactions are often more beneficial and enriching with face-to-face interaction.
+
+In this case, I think the conference is going very well, and I loved the networking section, because contrary to what I have seen in other events, this platform does allow you to establish a dialogue with video and audio to each of the attendees who wish to be part of the dynamic. Their method is very similar to speed dating (I have been told), where you can take about 3 minutes with the person, and extend the time of the chat if both people wish to do so. I think it's a pretty good idea, and should be implemented in the rest of the conferences that take place during the rest of the pandemic.
+
+Among the attendees, I only had a few familiar faces, among them, we can find again Ramon Roche ([@mrpollo](https://twitter.com/mrpollo?s=20)). Kudos for the way the event has been going, everything has been going great.
+
+Talking more about this dynamic, in a totally ironic way and reinforcing the idea that "we live in a small world", I have met a person from Canonical, where for being the first person I met in the dynamic, he surprised me in two ways:
+
+First, he greeted me in Spanish, which confused me for a moment, although later I understood that he could deduce it from my name, so kudos there. From then on we continued the conversation in Spanish. 
+
+Second, in my mind there was something that told me that his name had something to do with some part of my history, looking closely, I got a distant memory of something that happened in Spring 2021. At the time, I think this person must have been stunned at the series of smiles and apparent inattention I was projecting (as I was in my mind, trying to solve the riddle, an apology if you read this), it turns out that once I found that piece of information in my mind, I remembered that he was one of the authors of [*The State of Robotics* of Ubuntu](https://ubuntu.com/blog/author/g-aguiar-noury), and where he [mentioned my work](https://ubuntu.com/blog/the-state-of-robotics-february-2021) as part of his blog. With the answer in mind, I asked him if he has done posts of that nature, and if he remembers the ROS GoPro driver that someone did. 
+
+Immediately, the conversation changes as it's one thing to know someone's work from social media or person to person, to you seeing the person or team that made it. It was something surreal, but it left a good taste in my mouth because it means that there are people who appreciate that extra effort, and that motivates me to continue it.
+
+Because at the end of the day, I learned this kind of knowledge from anonymous people on the Internet, at no cost, and I felt the desire to be part of that effort for common and continuous improvement. Besides, I like that my work can be part of something else, it gives me a lot of personal satisfaction.
+
+## And the code...
+
+I will be updating a code in the form of a workshop for image management in ROS, I intend to create examples where you can create multiple images from one or more cameras, including webcam, integrated laptop, Kinect and GoPro.  I hope to have it for next week, stay tuned.
+
+## Conclusion
+
+To finish with this post, I will post as an edit the rest of my experience in PX4 Developer Summit 2021, and if possible the first images of my code addition.
+
+See you soon.
+
+
+
+
+
+
+
