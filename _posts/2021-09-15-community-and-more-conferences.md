@@ -2,7 +2,7 @@
 layout: post
 title: "Community and more conferences"
 date: 2021-09-15 01:00:00 -0500
-lang: es
+lang: en
 lang-ref: community-and-more-conferences
 published: true
 categories: community updates px4 drones conferences 
@@ -25,7 +25,7 @@ Next I will talk about the three communities I belong to, there is no particular
 
 ### Self.dev (devinitely healthy)
 
-*Self.dev](https://devinitelyhealthy.com/),* as the name says (both new and old) is focused on self-development and work-life balance. This community is primarily made up of people from diverse fields, ranging from web and application development, data science, and trading to engineers, writers, and educators. Its members come from various parts of the world and it is constantly expanding. 
+*[Self.dev](https://devinitelyhealthy.com/),* as the name says (both new and old) is focused on self-development and work-life balance. This community is primarily made up of people from diverse fields, ranging from web and application development, data science, and trading to engineers, writers, and educators. Its members come from various parts of the world and it is constantly expanding. 
 
 
 Its main activities fall within the creation of educational content, sharing knowledge and motivation for personal development, providing a friendly environment of coexistence, and even help for some of the problems related to technology, however, it should be noted that this support comes directly from the members, and I suggest you ask if someone is available. One of the most important reasons is due to one of its features that I consider one of the most important, the co-working transmitted by Twitch channels created by its members.
@@ -74,7 +74,7 @@ I'm glad, to have ended up in such a community and will do what I can to help ke
 
 For now, I'll try to convince him to use his Raspberry Pi more and start programming in CUDA Fortran for a graphics card (yes, just because).
 
-*Note: The content posted here is in the English language.
+*Note: The content posted here is in the Spanish language.*
 
 **Links**:
 
@@ -104,7 +104,7 @@ We look forward to seeing you on *Saturday, September 18, 2021 at 1:00pm GMT-5,*
 
 Good amount of quality content is on the way.
 
-*Note: The content posted here is in the Spanish language. 
+*Note: The content posted here is in the Spanish language.*
 
 **Links**:
 
