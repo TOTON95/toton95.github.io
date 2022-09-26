@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Alexis Guijarro, M.S.">
+  <title>Drones y su aplicación experimental</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="toton.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Drones y su aplicación experimental</h1>
+  <p class="author">Alexis Guijarro, M.S.</p>
+  <p class="date">09-27-2022</p>
+</section>
+
+<section id="contenido" class="slide level2">
+<h2>Contenido</h2>
+<ol type="1">
+<li><p>Introducción</p></li>
+<li><p>Descripción de los Drones</p></li>
+<li><p>Aplicaciones experimentales</p></li>
+</ol>
+</section>
+<section id="un-poco-acerca-de-mí" class="slide level2">
+<h2>Un poco acerca de mí</h2>
+<div class="fragment">
+<p><img data-src="/home/totonzx/Documents/Documents/ULSA/especiales/Drones_y_sus_aplicaciones/img/slides/main.jpg" /></p>
+</div>
+<div class="fragment">
+<p>Alexis Guijarro</p>
+</div>
+</section>
+<section class="slide level2">
+
+<ul>
+<li><p>Profesor de tiempo completo en ULSA Laguna (Ingenierías)</p></li>
+<li><p>Maestro en Ciencias de la Computación | Texas A&amp;M University - Corpus Christi</p></li>
+<li><p>Lic. en Ingeniería en Mecatrónica y Sistemas de Control de Procesos | ULSA Laguna</p></li>
+</ul>
+<aside class="notes">
+<p>Presentarse como ex-alumno</p>
+</aside>
+</section>
+<section>
+<section id="drones" class="title-slide slide level1">
+<h1>Drones</h1>
+
+</section>
+<section id="drones-1" class="slide level2">
+<h2>Drones</h2>
+<ul>
+<li>También conocidos como Vehículos Aéreos No Tripulados</li>
+</ul>
+</section></section>
+<section>
+<section id="quick-summary-robotics" class="title-slide slide level1">
+<h1>Quick summary (Robotics)</h1>
+
+</section>
+<section id="our-software-environment" class="slide level2">
+<h2>Our software environment</h2>
+<ol type="1">
+<li>GNU/Linux is the king</li>
+</ol>
+<p><img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/1200px-GNU_and_Tux.svg.png" style="width:50.0%" /></p>
+</section>
+<section class="slide level2">
+
+<ol start="2" type="1">
+<li>Centered around Robot Operating System (ROS)</li>
+</ol>
+<p><img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/logo-white.png" style="width:50.0%" /></p>
+</section>
+<section class="slide level2">
+
+<ol start="3" type="1">
+<li>Simulations (Gazebo, Isaac SIM)</li>
+</ol>
+<p><img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/gazebo_vert_white_only.png" style="width:45.0%" /></p>
+</section>
+<section class="slide level2">
+
+<ol start="4" type="1">
+<li><p>Robots do not get along too well with virtual machines</p>
+<ul>
+<li><p>Kernel issues</p></li>
+<li><p>Overheads</p></li>
+</ul></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<ol start="5" type="1">
+<li>AI is taking more relevance each day</li>
+</ol>
+</section>
+<section id="and-the-hardware" class="slide level2">
+<h2>… and the hardware</h2>
+<ol type="1">
+<li>Full of sensors, actuators</li>
+</ol>
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/zed-2-front.jpg" style="width:75.0%" alt="ZED 2 - AI Stereo Camera | Stereolabs" /><figcaption aria-hidden="true">ZED 2 - AI Stereo Camera | Stereolabs</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/1593533050_377_10-mejores-modulos-de-IMU-para-su-proyecto-de-electronica.jpg" alt="IMU | Adafruit" /><figcaption aria-hidden="true">IMU | Adafruit</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<ol start="2" type="1">
+<li><p>Full of communication adapters</p>
+<ol type="1">
+<li><p>WiFi</p></li>
+<li><p>BLE</p></li>
+<li><p>ZigBee</p></li>
+<li><p>LoRa</p></li>
+</ol></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<ol start="3" type="1">
+<li><p>Very constrained resources</p></li>
+<li><p>Development of hardware is “fast” but not enough to match software</p></li>
+<li><p>People are specialized into their little part of the project</p></li>
+</ol>
+</section>
+<section id="testing-new-features" class="slide level2">
+<h2>Testing new features</h2>
+<ul>
+<li><p>Tests can be done on real or virtual agents (simulation)</p></li>
+<li><p>Require tests of different nature</p></li>
+<li><p>By nature, robotics is a iterative process</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/3/38/Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg" style="width:45.0%" alt="Detected with YOLO - Wikimedia Commons" /><figcaption aria-hidden="true">Detected with YOLO - Wikimedia Commons</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="https://www.latticesemi.com/-/media/LatticeSemi/Images/Blogs/2021/Sensor_Fusion_at_the_Edge_Blog_Image_1.ashx?la=en" style="width:65.0%" alt="Sensor Fusion | Lattice Semiconductor" /><figcaption aria-hidden="true">Sensor Fusion | Lattice Semiconductor</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/image-20220425094344117.png" alt="Control strategies" /><figcaption aria-hidden="true">Control strategies</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="https://clearpathrobotics.com/wp-content/uploads/2016/02/ROS_navigation_tutorials-1-937x675.png" style="width:65.0%" alt="Navigation and State Estimation | Clearpath Robotics" /><figcaption aria-hidden="true">Navigation and State Estimation | Clearpath Robotics</figcaption>
+</figure>
+</section></section>
+<section>
+<section id="robotics-and-devops" class="title-slide slide level1">
+<h1>Robotics and DevOps</h1>
+
+</section>
+<section id="short-storytime" class="slide level2">
+<h2>Short storytime</h2>
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/ULSA/especiales/Drones_y_sus_aplicaciones/img/slides/main.jpg" alt="Me" /><figcaption aria-hidden="true">Me</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/drone.gif" width="720" alt="Testing Programs" /><figcaption aria-hidden="true">Testing Programs</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<ul>
+<li><p>There’s a relationship between scientists, developers, sys admins…</p>
+<ul>
+<li>It’s common that miscommunication exists!</li>
+</ul></li>
+</ul>
+</section>
+<section id="current-challenges-and-solutions" class="slide level2">
+<h2>Current Challenges and Solutions</h2>
+<ul>
+<li><p>DevOps is a culture, produced practices and tools can be implemented into robotics (with some tweaks)</p></li>
+<li><p>Instrumentation and monitoring is found in both fields</p></li>
+<li><p>Most of the system’s infrastructure it’s very similar to other environments</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>It’s possible to abstract hardware into software, but only to some extent and not completely accurate (reality gap)</li>
+</ul>
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/highlight.png" style="width:70.0%" alt="Group of simulated robots | Ignition Robotics" /><figcaption aria-hidden="true">Group of simulated robots | Ignition Robotics</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/synthetic-generation-isaac-sim-3c33-D.jpg" style="width:65.0%" alt="Isaac Sim Synthetic Data Generation | NVIDIA Isaac Sim" /><figcaption aria-hidden="true">Isaac Sim Synthetic Data Generation | NVIDIA Isaac Sim</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<center>
+<img>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+I'll be giving a presentation soon at <a href="https://twitter.com/hashtag/AllThingsOpen?src=hash&amp;ref_src=twsrc%5Etfw">#AllThingsOpen</a>! Let's set up simulation-based CI for robots for free using Ignition Gazebo, ROS 2, GitHub actions and Dolly! 🐑🤖 <a href="https://twitter.com/hashtag/gzgif?src=hash&amp;ref_src=twsrc%5Etfw">#gzgif</a><a href="https://twitter.com/GazeboSim?ref_src=twsrc%5Etfw"><span class="citation" data-cites="GazeboSim">@GazeboSim</span></a> <a href="https://twitter.com/rosorg?ref_src=twsrc%5Etfw"><span class="citation" data-cites="rosorg">@rosorg</span></a> <a href="https://twitter.com/OpenRoboticsOrg?ref_src=twsrc%5Etfw"><span class="citation" data-cites="OpenRoboticsOrg">@OpenRoboticsOrg</span></a> <a href="https://t.co/ZmypNuKEYN">https://t.co/ZmypNuKEYN</a> <a href="https://t.co/XNF4ew4goW">pic.twitter.com/XNF4ew4goW</a>
+</p>
+— Louise Poubel (<span class="citation" data-cites="chapulinaBR">@chapulinaBR</span>) <a href="https://twitter.com/chapulinaBR/status/1450533544447528962?ref_src=twsrc%5Etfw">October 19, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</img>
+</center>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/containers.png" alt="Docker and Snap" /><figcaption aria-hidden="true">Docker and Snap</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/orchestation.png" alt="Docker Compose and Kubernetes" /><figcaption aria-hidden="true">Docker Compose and Kubernetes</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>Deployment could or not depend in how the robot is going to receive data</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="https://www.deere.co.uk/assets/images/region-2/industries/agriculture/future-of-farming/ftz-hero-joker.jpg" alt="Autonomous John Deere Tractor" /><figcaption aria-hidden="true">Autonomous John Deere Tractor</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/perseverance.jpg" style="width:80.0%" alt="Perseverance and Ingenuity | NASA - JPL" /><figcaption aria-hidden="true">Perseverance and Ingenuity | NASA - JPL</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="/home/totonzx/Documents/Documents/Robots%20Latam/DevChat/img/slides/image-20220427103135132.png" alt="Monitoring" /><figcaption aria-hidden="true">Monitoring</figcaption>
+</figure>
+</section></section>
+<section id="conclusions" class="title-slide slide level1">
+<h1>Conclusions</h1>
+
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: false,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
