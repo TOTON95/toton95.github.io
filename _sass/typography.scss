@@ -2,28 +2,29 @@ body {
     font-family: Futura, Arial, sans-serif;
 
     a {
-        color: rgb(44, 145, 240);
+        color: rgb(87, 162, 233);
     }
 }
 
 p {
     font-weight: 300;
-    color: #111;
+    color: #e8e5e5;
 }
 
 .banner .content {
     max-width: 900px;
     text-align: center;
+    color: #e8e5e5;
 }
 
 .banner .content h2 {
     font-size: 5em;
-    color: rgb(0, 0, 0);
+    color: #e8e5e5;
 }
 
 .banner .content p {
     font-size: 1em;
-    color: rgb(0, 0, 0);
+    color: #e8e5e5;
 }
 
 .btn:hover
