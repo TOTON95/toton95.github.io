@@ -1,4 +1,7 @@
 {
     "python.pythonPath": "/bin/python3.8",
-    "ros.distro": "noetic"
+    "ros.distro": "noetic",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
 }

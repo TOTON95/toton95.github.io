@@ -17,7 +17,8 @@ layout: default
                 <a class=imgBx href="mailto:totonzx+portfolio@gmail.com"><img src="/assets/img/email.png"></a>
             </div>
             <div class="mosaic">
-                <a class=imgBx href="https://www.linkedin.com/in/alexis-guijarro" target="blank"
+
+                <a class=imgBx href="https://www.linkedin.com/in/alexis-guijarro/" target="blank"
                     rel="noopener noreferrer"><img src="/assets/img/linkedin.png"></a>
             </div>
             <div class="mosaic">
@@ -32,11 +33,10 @@ layout: default
     <div class="row">
         <div class="col50">
             <h2 class="titleText"><span>A</span>bout</h2>
-            <p>Gabriel Alexis Guijarro Reyes was born in Torreon, Coahuila, Mexico in 1995. He obtained his B.S. in
-                Mechatronics and Process Control Systems Engineering in 2018 at Universidad La Salle Laguna, Gomez
-                Palacio, Durango, Mexico. Later, he obtained a M.S. in Computer Science in 2020 at Texas A&M University
+            <p>Alexis Guijarro was born in Torreon, Coahuila, Mexico in 1995. He obtained his B.S. in
+                Mechatronics and Process Control Systems Engineering in 2018 at Universidad La Salle Laguna. Later, he obtained a M.S. in Computer Science in 2020 at Texas A&M University
                 Corpus Christi under Dr. Luis Rodolfo Garcia Carrillo and Dr. Scott A. King supervision. Currently, he
-                is studying a PhD in EE at New Mexico State University, under Dr. Garcia Carrillo's supervision.</p>
+                is collaborating with Robots LatAm and PX4 Project for tech content creation in Spanish.</p>
             <br><br>
         </div>
         <div class="col50">
@@ -254,6 +254,13 @@ layout: default
     <div class="row">
         <div class="col50">
             <h2 class="titleText"><span>O</span>rganizations</h2>
+        </div>
+        <div class="col50"></div>
+    </div>
+    <div class="row">
+        <div class="col50">
+            {% capture org_capture %}{% include organizations.md %}{% endcapture %}
+            {{org_capture | markdownify}}
         </div>
         <div class="col50"></div>
     </div>

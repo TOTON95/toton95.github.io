@@ -5,8 +5,8 @@
 }
 
 html {
-    background-color: rgb(252, 252, 252);
-    color: #9b8e8e;
+    background-color: rgb(16, 16, 16);
+    color: #e6dede;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
@@ -20,16 +20,10 @@ html {
     justify-content: center;
     align-items: center;
     // background: url(bg.jpg);
-    background: rgb(198, 193, 193);
-    background: linear-gradient(
-        180deg,
-        rgba(198, 193, 193, 1) 0%,
-        rgba(161, 169, 173, 1) 48%,
-        rgba(136, 145, 149, 1) 72%,
-        rgba(92, 104, 107, 1) 100%
-    );
+    background: rgb(16, 16, 16);
     background-size: cover;
 }
+
 
 .btn {
     display: inline-block;
@@ -52,13 +46,13 @@ header {
 }
 
 header.sticky {
-    background: #fff;
+    background: #6161618e;
     padding: 10px 46px;
     box-shadow: 0 5px 20px rgba($color: #000000, $alpha: 0.05);
 }
 
 header .logo {
-    color: rgb(0, 0, 0);
+    color: rgba(227, 223, 223, 0.95);
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
@@ -138,7 +132,7 @@ section {
 }
 
 .titleText {
-    color: #111;
+    color: #e8e5e5;
     font-size: 2em;
     font-weight: 300;
     text-align: justify;
@@ -182,11 +176,11 @@ section {
     text-align: center;
 }
 
-.about .row .mosaic:hover {
+/*.about .row .mosaic:hover {
     transform: scale(1.05);
     transition: 0.2s;
     box-shadow: 0 0 2px 1px rgba(92, 104, 107, 1);
-}
+}*/
 
 .banner .row .mosaic {
     display: flex;
@@ -367,7 +361,7 @@ section {
     }
 
     header.sticky .logo {
-        color: rgb(0, 0, 0);
+        color: #e8e5e5;
     }
 
     header .logo span {
@@ -407,7 +401,7 @@ section {
 
     .banner .content h2 {
         font-size: 3em;
-        color: rgb(0, 0, 0);
+        color: rgb(240, 240, 240);
         margin-top: 1em;
     }
 
